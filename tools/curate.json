@@ -1,0 +1,306 @@
+{
+ "drop": [
+  "five-jerusalem-outlets-designated-terrorist",
+  "motaz-azaiza-taqarrab-interview",
+  "el-gouna-citizen-osama-golden-star",
+  "al-jazeera-law-in-force",
+  "abu-akleh-coalition-letter",
+  "ioda-gaza-reading-7-oct"
+ ],
+ "status": {
+  "concrete-land-grierson-award-london": "recognised",
+  "prix-bayeux-gaza-photographers": "recognised",
+  "doha-film-festival-palestinian-competition": "recognised",
+  "thirteen-in-gaza-netpac-tiff": "recognised",
+  "bisan-owda-three-years-video": "recognised"
+ },
+ "by": {
+  "press": "Unions, prisoner groups, press-freedom monitors",
+  "speech": "Posts, footage and what is done with them",
+  "platforms": "Platforms, governments and what they take down",
+  "creators": "Palestinians who report, film and post for themselves"
+ },
+ "rows": {
+  "speech": [
+   {
+    "id": "pps-incitement-surveillance-al-eizariya-principal",
+    "name": "Arrests for \"incitement\" over posts and teaching",
+    "ctx": "A school principal in al-Eizariya held with his posters and lessons cited as evidence.",
+    "reading": "Widening",
+    "unit": "no count published",
+    "kind": "Statement",
+    "src": "Palestinian Prisoners' Society, via WAFA",
+    "at": "5 Oct"
+   },
+   {
+    "id": "tuqu-schools-flags-bethlehem-student-phone",
+    "name": "Troops in two Tuqu' classrooms",
+    "ctx": "Flags taken during the first lesson; staff and pupils threatened with closure.",
+    "reading": "2",
+    "unit": "schools entered",
+    "kind": "Single event",
+    "src": "Tuqu' municipality, via WAFA",
+    "at": "21 Oct"
+   },
+   {
+    "id": "addameer-files-seized-ramallah-raid",
+    "name": "Prisoners' legal files carried off in Ramallah",
+    "ctx": "Addameer's sealed office emptied onto a military trailer.",
+    "reading": "Ramallah",
+    "unit": "former Addameer office",
+    "kind": "Single event",
+    "src": "AFP; Addameer",
+    "at": "13 Oct"
+   },
+   {
+    "id": "kafr-ad-dik-home-camera-footage-seized",
+    "name": "Home-camera footage seized in a raid",
+    "ctx": "Soldiers searched homes and left with the recordings.",
+    "reading": "Kafr ad-Dik",
+    "unit": "west of Salfit",
+    "kind": "Single event",
+    "src": "WAFA",
+    "at": "5 Oct"
+   },
+   {
+    "id": "supreme-court-restores-arab-lists",
+    "name": "Arab lists back on the ballot",
+    "ctx": "The Supreme Court overturned the bans on Ra'am and the Joint List before the 27 October vote.",
+    "reading": "9–0",
+    "unit": "justices' vote",
+    "kind": "Ruling",
+    "src": "Supreme Court of Israel; Adalah",
+    "at": "2 Oct"
+   }
+  ],
+  "platforms": [
+   {
+    "id": "7amleh-q3-2026-308-violations",
+    "name": "Digital violations logged in three months",
+    "ctx": "194 cases of incitement against Palestinians left online, 114 of Palestinian posts restricted.",
+    "reading": "308",
+    "unit": "July – September",
+    "kind": "Quarterly report",
+    "src": "7amleh",
+    "at": "1 Oct"
+   },
+   {
+    "id": "un-rapporteur-mediacide-platforms",
+    "name": "Palestinian posts suppressed on Meta since 2023",
+    "ctx": "Cited in the UN Special Rapporteur's report to the General Assembly.",
+    "reading": "38.8m",
+    "unit": "posts on Facebook and Instagram",
+    "kind": "UN report",
+    "src": "UN, A/81/249",
+    "at": "9 Oct"
+   },
+   {
+    "id": "anas-al-sharif-instagram-archive-shut",
+    "name": "Anas al-Sharif's war archive taken off Instagram",
+    "ctx": "The killed correspondent's account was shut; Meta has given no reason.",
+    "reading": "Shut",
+    "unit": "no reason given",
+    "kind": "Account closed",
+    "src": "Statement on his X account",
+    "at": "9 Oct"
+   },
+   {
+    "id": "settlers-whatsapp-stop-the-harvest",
+    "name": "WhatsApp call to block olive pickers",
+    "ctx": "A \"Stop the Harvest\" poster told settlers to gather near Neve Daniel before dawn.",
+    "reading": "6:15",
+    "unit": "gathering time on the poster",
+    "kind": "Single event",
+    "src": "The New Arab",
+    "at": "12 Oct"
+   },
+   {
+    "id": "al-jazeera-law-blocks-2026",
+    "name": "The Al Jazeera law, extended",
+    "ctx": "Now reaches websites and YouTube channels, with no court approval needed.",
+    "reading": "2027",
+    "unit": "runs to 31 December",
+    "kind": "Law",
+    "src": "Israeli government; CPJ",
+    "at": "26 Jan"
+   }
+  ],
+  "creators": [
+   {
+    "id": "concrete-land-grierson-award-london",
+    "name": "Concrete Land wins the Grierson Award",
+    "ctx": "Asmahan Bkerat's debut documentary, filmed over eight years, at the London Film Festival.",
+    "reading": "London",
+    "unit": "best documentary",
+    "kind": "Award",
+    "src": "BFI London Film Festival",
+    "at": "18 Oct"
+   },
+   {
+    "id": "prix-bayeux-gaza-photographers",
+    "name": "Gaza reporting takes four Bayeux prizes",
+    "ctx": "Mahmoud Abu Hamda won the jury's and the public's photo prizes.",
+    "reading": "4",
+    "unit": "prizes for work from Gaza",
+    "kind": "Award",
+    "src": "Prix Bayeux, via AFP",
+    "at": "10 Oct"
+   },
+   {
+    "id": "saleh-al-jafarawi-one-year",
+    "name": "Saleh al-Jafarawi, a year on",
+    "ctx": "Shot dead in Gaza City days after the ceasefire; no investigation result found.",
+    "reading": "1",
+    "unit": "year without an answer",
+    "kind": "Anniversary",
+    "src": "Al Jazeera English; CPJ",
+    "at": "12 Oct"
+   },
+   {
+    "id": "jehad-alshrafi-deauville-photo-reinstated",
+    "name": "A Gaza football photo, put back by a court",
+    "ctx": "Deauville removed Jehad Alshrafi's picture; a court in Caen ordered it returned.",
+    "reading": "€1,000",
+    "unit": "costs against the town",
+    "kind": "Ruling",
+    "src": "Caen administrative court",
+    "at": "31 Aug"
+   }
+  ],
+  "press": [
+   {
+    "id": "heidi-levine-beaten-abu-falah",
+    "name": "Washington Post photographer beaten at the harvest",
+    "ctx": "Heidi Levine: broken ribs and vertebrae, cameras taken, in Abu Falah.",
+    "reading": "16",
+    "unit": "settler attacks on the press CPJ counted this year",
+    "kind": "Single event",
+    "src": "CPJ; AP; NPR",
+    "at": "16 Oct"
+   },
+   {
+    "id": "murtaja-killed-gaza-city",
+    "name": "Journalist reported killed in Gaza City",
+    "ctx": "Obaida Murtaja, buried after a drone strike in al-Nasr; not yet confirmed by the syndicate or CPJ.",
+    "reading": "al-Nasr",
+    "unit": "Gaza City",
+    "kind": "Single source",
+    "src": "Shehab; Palestinian Information Center",
+    "at": "17 Oct"
+   },
+   {
+    "id": "saleh-shawka-arrested",
+    "name": "Journalist arrested before dawn in al-Eizariya",
+    "ctx": "Saleh Shawka of the Democratic Media Forum, taken from his home after a search.",
+    "reading": "al-Eizariya",
+    "unit": "east of Jerusalem",
+    "kind": "Single source",
+    "src": "Democratic Media Forum, via Wattan",
+    "at": "22 Oct"
+   },
+   {
+    "id": "hazem-nasser-released",
+    "name": "Hazem Nasser home after 27 months",
+    "ctx": "The Tulkarm journalist was held on secret evidence, never charged or tried.",
+    "reading": "27",
+    "unit": "months without charge",
+    "kind": "Release",
+    "src": "Palestinian Center for Defense of Prisoners",
+    "at": "20 Oct"
+   },
+   {
+    "id": "fpa-high-court-gaza-access",
+    "name": "Foreign reporters still kept out of Gaza",
+    "ctx": "The state told the High Court entry stays escort-only; the court has not ruled in two years.",
+    "reading": "2",
+    "unit": "years since the petition, no ruling",
+    "kind": "Court filing",
+    "src": "State filing, via Jerusalem Post",
+    "at": "18 Oct"
+   },
+   {
+    "id": "pjs-september-report",
+    "name": "Violations logged against the press in September",
+    "ctx": "22 journalists held or stopped from working, nine arrests. Down from 84 in August.",
+    "reading": "50",
+    "unit": "in one month",
+    "kind": "Monthly report",
+    "src": "PJS Freedoms Committee",
+    "at": "8 Oct"
+   }
+  ]
+ },
+ "creators": [
+  {
+   "id": "bisan-owda-three-years-video",
+   "name": "Bisan Owda",
+   "line": "Three years of filming Gaza, months after a one-day TikTok ban."
+  },
+  {
+   "id": "saleh-al-jafarawi-one-year",
+   "name": "Saleh al-Jafarawi",
+   "line": "Killed a year ago in Gaza City. Still no answer."
+  },
+  {
+   "id": "anas-al-sharif-instagram-archive-shut",
+   "name": "Anas al-Sharif",
+   "line": "His archive of the war, shut on Instagram."
+  },
+  {
+   "id": "concrete-land-grierson-award-london",
+   "name": "Asmahan Bkerat",
+   "line": "Concrete Land, best documentary in London."
+  }
+ ],
+ "counts": [
+  {
+   "num": "263",
+   "unit": "journalists killed in Gaza",
+   "ctx": "Journalists and media workers since October 2023; nine of them after the ceasefire of 10 October 2025.",
+   "src": "Gaza Government Media Office, via Anadolu",
+   "at": "7 Oct 2026"
+  },
+  {
+   "num": "247",
+   "unit": "journalists killed by Israel",
+   "ctx": "Since October 2023, 189 of them Palestinians in Gaza. CPJ counts only cases it has verified.",
+   "src": "Committee to Protect Journalists",
+   "at": "25 Sep 2026"
+  },
+  {
+   "num": "39",
+   "unit": "journalists in Israeli prisons",
+   "ctx": "21 held without charge in administrative detention; five are women.",
+   "src": "Palestinian Prisoners' Society",
+   "at": "17 Sep 2026"
+  },
+  {
+   "num": "50",
+   "unit": "violations against the press in September",
+   "ctx": "Down from 84 in August and 108 in July.",
+   "src": "PJS Freedoms Committee",
+   "at": "8 Oct 2026"
+  }
+ ],
+ "lead_story": "ioda-gaza-steady-24-oct",
+ "front": [
+  "heidi-levine-beaten-abu-falah",
+  "fpa-high-court-gaza-access",
+  "west-bank-4g-still-pending",
+  "hazem-nasser-released",
+  "tuqu-schools-flags-bethlehem-student-phone",
+  "anas-al-sharif-instagram-archive-shut",
+  "7amleh-q3-2026-308-violations",
+  "concrete-land-grierson-award-london"
+ ],
+ "fix": {
+  "ioda-gaza-steady-24-oct": {
+   "source": "IODA, Georgia Tech",
+   "via": "our reading of the IODA data"
+  },
+  "ioda-west-bank-steady": {
+   "source": "IODA, Georgia Tech",
+   "via": "our reading of the IODA data"
+  }
+ }
+}

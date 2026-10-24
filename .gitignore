@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.DS_Store
+tools/out/
+# research: sources, notes and samples stay local; the built edition is in tools/edition.json
+research/*
+!research/ioda.json

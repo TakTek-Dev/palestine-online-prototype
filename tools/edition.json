@@ -1,0 +1,2472 @@
+{
+ "date": "2026-10-24",
+ "read_utc": "09:30",
+ "read_local": "12:30",
+ "lead": {
+  "id": "gaza-net",
+  "desk": "networks",
+  "kicker": "Analysis · our reading of IODA data",
+  "at": "24 Oct, 09:30 UTC",
+  "chips": [
+   [
+    "degraded",
+    "Routing degraded"
+   ],
+   [
+    "down",
+    "Answering down"
+   ]
+  ],
+  "headline": "Gaza's internet by IODA's count: 155 of 704 pre‑war address blocks routed, eight answering",
+  "dek": "IODA, the outage observatory at Georgia Tech, counts blocks of internet addresses, not people. Read as a trend, the count says how much of Gaza's network the rest of the internet can still reach.",
+  "paras": [
+   "Routed blocks rose this month, from 147 in the last week of September to 151 on 4 October and 155 on 9 October, and have held there since. Answering blocks have not moved: seven to nine on every day of the month, against about 196 on 1–6 October 2023.",
+   "There has been no outage alert for Gaza since 16 September. The West Bank, measured the same way, has held flat apart from a 30-minute routing dip before dawn on 13 October."
+  ],
+  "source": "IODA signals for the Gaza Strip (region 1226) and West Bank (4581), daily medians 24 Sep – 24 Oct 2026, read 24 Oct, 09:30 UTC. Pre-war levels are means over 1–6 Oct 2023.",
+  "net": {
+   "prewar": 704,
+   "routed": 155,
+   "answering": 8,
+   "prewar_answering": 196,
+   "days": [
+    [
+     "2026-09-24",
+     147,
+     8
+    ],
+    [
+     "2026-09-25",
+     147,
+     9
+    ],
+    [
+     "2026-09-26",
+     147,
+     9
+    ],
+    [
+     "2026-09-27",
+     147,
+     9
+    ],
+    [
+     "2026-09-28",
+     147,
+     9
+    ],
+    [
+     "2026-09-29",
+     147,
+     9
+    ],
+    [
+     "2026-09-30",
+     147,
+     9
+    ],
+    [
+     "2026-10-01",
+     144,
+     7
+    ],
+    [
+     "2026-10-02",
+     147,
+     8
+    ],
+    [
+     "2026-10-03",
+     147,
+     8
+    ],
+    [
+     "2026-10-04",
+     151,
+     8
+    ],
+    [
+     "2026-10-05",
+     151,
+     8
+    ],
+    [
+     "2026-10-06",
+     151,
+     8
+    ],
+    [
+     "2026-10-07",
+     151,
+     8
+    ],
+    [
+     "2026-10-08",
+     151,
+     8
+    ],
+    [
+     "2026-10-09",
+     155,
+     8
+    ],
+    [
+     "2026-10-10",
+     155,
+     8
+    ],
+    [
+     "2026-10-11",
+     155,
+     8
+    ],
+    [
+     "2026-10-12",
+     155,
+     8
+    ],
+    [
+     "2026-10-13",
+     155,
+     8
+    ],
+    [
+     "2026-10-14",
+     155,
+     8
+    ],
+    [
+     "2026-10-15",
+     155,
+     8
+    ],
+    [
+     "2026-10-16",
+     155,
+     8
+    ],
+    [
+     "2026-10-17",
+     155,
+     8
+    ],
+    [
+     "2026-10-18",
+     155,
+     7
+    ],
+    [
+     "2026-10-19",
+     155,
+     8
+    ],
+    [
+     "2026-10-20",
+     155,
+     8
+    ],
+    [
+     "2026-10-21",
+     155,
+     8
+    ],
+    [
+     "2026-10-22",
+     155,
+     8
+    ],
+    [
+     "2026-10-23",
+     155,
+     8
+    ],
+    [
+     "2026-10-24",
+     155,
+     8
+    ]
+   ]
+  },
+  "href": "report/ioda-gaza-steady-24-oct.html"
+ },
+ "board": [
+  {
+   "key": "networks",
+   "title": "Networks",
+   "by": "IODA, Georgia Tech",
+   "rows": [
+    {
+     "code": "gz-routed",
+     "status": "degraded",
+     "name": "Gaza · routed address blocks",
+     "ctx": "Blocks the wider internet can still reach. 147 on 24 September, 155 since 9 October.",
+     "reading": "155",
+     "unit": "22% of pre-war",
+     "spark": [
+      147,
+      147,
+      147,
+      147,
+      147,
+      147,
+      147,
+      144,
+      147,
+      147,
+      151,
+      151,
+      151,
+      151,
+      151,
+      155,
+      155,
+      155,
+      155,
+      155,
+      155,
+      155,
+      155,
+      155,
+      155,
+      155,
+      155,
+      155,
+      155,
+      155,
+      155
+     ],
+     "ref": 704,
+     "src": "IODA · BGP",
+     "at": "24 Oct, 09:30 UTC",
+     "href": "row/gz-routed.html"
+    },
+    {
+     "code": "gz-answering",
+     "status": "down",
+     "name": "Gaza · blocks answering probes",
+     "ctx": "Blocks with at least one device replying to a ping. Seven to nine every day this month.",
+     "reading": "8",
+     "unit": "about 4% of pre-war",
+     "spark": [
+      8,
+      9,
+      9,
+      9,
+      9,
+      9,
+      9,
+      7,
+      8,
+      8,
+      8,
+      8,
+      8,
+      8,
+      8,
+      8,
+      8,
+      8,
+      8,
+      8,
+      8,
+      8,
+      8,
+      8,
+      7,
+      8,
+      8,
+      8,
+      8,
+      8,
+      8
+     ],
+     "ref": 196,
+     "src": "IODA · active probing",
+     "at": "24 Oct, 09:30 UTC",
+     "href": "row/gz-answering.html"
+    },
+    {
+     "code": "gz-alerts",
+     "status": "steady",
+     "name": "Gaza · last outage alert",
+     "ctx": "35 minutes of lost routes from 04:10 UTC. The one before, on 14 August, lasted 70.",
+     "reading": "16 Sep",
+     "unit": "38 days without an alert",
+     "spark": {
+      "bars": [
+       1,
+       1,
+       1,
+       1,
+       1,
+       1,
+       1,
+       1,
+       1,
+       1,
+       1,
+       1,
+       1,
+       1,
+       1,
+       1,
+       1,
+       1,
+       1,
+       1,
+       1,
+       1,
+       1,
+       1,
+       1,
+       1,
+       1,
+       1,
+       1,
+       1,
+       1
+      ],
+      "hits": []
+     },
+     "src": "IODA · outage alerts",
+     "at": "24 Oct, 09:30 UTC",
+     "href": "row/gz-alerts.html"
+    },
+    {
+     "code": "wb-routed",
+     "status": "steady",
+     "name": "West Bank · routed address blocks",
+     "ctx": "Above the 2,339 it had before the war, and flat all month.",
+     "reading": "3,015",
+     "unit": "above pre-war",
+     "spark": [
+      3014,
+      3014,
+      3014,
+      3014,
+      3014,
+      3014,
+      3015,
+      3015,
+      3015,
+      3015,
+      3015,
+      3015,
+      3015,
+      3015,
+      3015,
+      3015,
+      3016,
+      3016,
+      3016,
+      3016,
+      3016,
+      3016,
+      3017,
+      3018,
+      3018,
+      3017,
+      3017,
+      3017,
+      3015,
+      3015,
+      3015
+     ],
+     "ref": 2339,
+     "src": "IODA · BGP",
+     "at": "24 Oct, 09:30 UTC",
+     "href": "row/wb-routed.html"
+    },
+    {
+     "code": "wb-blip",
+     "status": "restored",
+     "name": "West Bank · routing dip before dawn",
+     "ctx": "60 of 3,016 blocks dropped from the routing tables at 05:25 local time and came back at 05:55.",
+     "reading": "13 Oct",
+     "unit": "30 minutes, then back",
+     "spark": {
+      "bars": [
+       1,
+       1,
+       1,
+       1,
+       1,
+       1,
+       1,
+       1,
+       1,
+       1,
+       1,
+       1,
+       1,
+       1,
+       1,
+       1,
+       1,
+       1,
+       1,
+       1,
+       1,
+       1,
+       1,
+       1,
+       1,
+       1,
+       1,
+       1,
+       1,
+       1,
+       1
+      ],
+      "hits": [
+       19
+      ]
+     },
+     "src": "IODA · outage alerts",
+     "at": "13 Oct, 02:55 UTC",
+     "href": "row/wb-blip.html"
+    }
+   ]
+  },
+  {
+   "key": "press",
+   "title": "Press safety",
+   "by": "Unions, prisoner groups, press-freedom monitors",
+   "rows": [
+    {
+     "code": "heidi-levine-beaten-abu-falah",
+     "status": "incident",
+     "name": "Washington Post photographer beaten at the harvest",
+     "ctx": "Heidi Levine: broken ribs and vertebrae, cameras taken, in Abu Falah.",
+     "reading": "16",
+     "unit": "settler attacks on the press CPJ counted this year",
+     "kind": "Single event",
+     "src": "CPJ; AP; NPR",
+     "at": "16 Oct",
+     "href": "report/heidi-levine-beaten-abu-falah.html"
+    },
+    {
+     "code": "murtaja-killed-gaza-city",
+     "status": "incident",
+     "name": "Journalist reported killed in Gaza City",
+     "ctx": "Obaida Murtaja, buried after a drone strike in al-Nasr; not yet confirmed by the syndicate or CPJ.",
+     "reading": "al-Nasr",
+     "unit": "Gaza City",
+     "kind": "Single source",
+     "src": "Shehab; Palestinian Information Center",
+     "at": "17 Oct",
+     "href": "report/murtaja-killed-gaza-city.html"
+    },
+    {
+     "code": "saleh-shawka-arrested",
+     "status": "incident",
+     "name": "Journalist arrested before dawn in al-Eizariya",
+     "ctx": "Saleh Shawka of the Democratic Media Forum, taken from his home after a search.",
+     "reading": "al-Eizariya",
+     "unit": "east of Jerusalem",
+     "kind": "Single source",
+     "src": "Democratic Media Forum, via Wattan",
+     "at": "22 Oct",
+     "href": "report/saleh-shawka-arrested.html"
+    },
+    {
+     "code": "hazem-nasser-released",
+     "status": "resolved",
+     "name": "Hazem Nasser home after 27 months",
+     "ctx": "The Tulkarm journalist was held on secret evidence, never charged or tried.",
+     "reading": "27",
+     "unit": "months without charge",
+     "kind": "Release",
+     "src": "Palestinian Center for Defense of Prisoners",
+     "at": "20 Oct",
+     "href": "report/hazem-nasser-released.html"
+    },
+    {
+     "code": "fpa-high-court-gaza-access",
+     "status": "stalled",
+     "name": "Foreign reporters still kept out of Gaza",
+     "ctx": "The state told the High Court entry stays escort-only; the court has not ruled in two years.",
+     "reading": "2",
+     "unit": "years since the petition, no ruling",
+     "kind": "Court filing",
+     "src": "State filing, via Jerusalem Post",
+     "at": "18 Oct",
+     "href": "report/fpa-high-court-gaza-access.html"
+    },
+    {
+     "code": "pjs-september-report",
+     "status": "pattern",
+     "name": "Violations logged against the press in September",
+     "ctx": "22 journalists held or stopped from working, nine arrests. Down from 84 in August.",
+     "reading": "50",
+     "unit": "in one month",
+     "kind": "Monthly report",
+     "src": "PJS Freedoms Committee",
+     "at": "8 Oct",
+     "href": "report/pjs-september-report.html"
+    }
+   ]
+  },
+  {
+   "key": "speech",
+   "title": "Speech & evidence",
+   "by": "Posts, footage and what is done with them",
+   "rows": [
+    {
+     "code": "pps-incitement-surveillance-al-eizariya-principal",
+     "status": "pattern",
+     "name": "Arrests for \"incitement\" over posts and teaching",
+     "ctx": "A school principal in al-Eizariya held with his posters and lessons cited as evidence.",
+     "reading": "Widening",
+     "unit": "no count published",
+     "kind": "Statement",
+     "src": "Palestinian Prisoners' Society, via WAFA",
+     "at": "5 Oct",
+     "href": "report/pps-incitement-surveillance-al-eizariya-principal.html"
+    },
+    {
+     "code": "tuqu-schools-flags-bethlehem-student-phone",
+     "status": "incident",
+     "name": "Troops in two Tuqu' classrooms",
+     "ctx": "Flags taken during the first lesson; staff and pupils threatened with closure.",
+     "reading": "2",
+     "unit": "schools entered",
+     "kind": "Single event",
+     "src": "Tuqu' municipality, via WAFA",
+     "at": "21 Oct",
+     "href": "report/tuqu-schools-flags-bethlehem-student-phone.html"
+    },
+    {
+     "code": "addameer-files-seized-ramallah-raid",
+     "status": "incident",
+     "name": "Prisoners' legal files carried off in Ramallah",
+     "ctx": "Addameer's sealed office emptied onto a military trailer.",
+     "reading": "Ramallah",
+     "unit": "former Addameer office",
+     "kind": "Single event",
+     "src": "AFP; Addameer",
+     "at": "13 Oct",
+     "href": "report/addameer-files-seized-ramallah-raid.html"
+    },
+    {
+     "code": "kafr-ad-dik-home-camera-footage-seized",
+     "status": "incident",
+     "name": "Home-camera footage seized in a raid",
+     "ctx": "Soldiers searched homes and left with the recordings.",
+     "reading": "Kafr ad-Dik",
+     "unit": "west of Salfit",
+     "kind": "Single event",
+     "src": "WAFA",
+     "at": "5 Oct",
+     "href": "report/kafr-ad-dik-home-camera-footage-seized.html"
+    },
+    {
+     "code": "supreme-court-restores-arab-lists",
+     "status": "resolved",
+     "name": "Arab lists back on the ballot",
+     "ctx": "The Supreme Court overturned the bans on Ra'am and the Joint List before the 27 October vote.",
+     "reading": "9–0",
+     "unit": "justices' vote",
+     "kind": "Ruling",
+     "src": "Supreme Court of Israel; Adalah",
+     "at": "2 Oct",
+     "href": "report/supreme-court-restores-arab-lists.html"
+    }
+   ]
+  },
+  {
+   "key": "platforms",
+   "title": "Platforms",
+   "by": "Platforms, governments and what they take down",
+   "rows": [
+    {
+     "code": "7amleh-q3-2026-308-violations",
+     "status": "pattern",
+     "name": "Digital violations logged in three months",
+     "ctx": "194 cases of incitement against Palestinians left online, 114 of Palestinian posts restricted.",
+     "reading": "308",
+     "unit": "July – September",
+     "kind": "Quarterly report",
+     "src": "7amleh",
+     "at": "1 Oct",
+     "href": "report/7amleh-q3-2026-308-violations.html"
+    },
+    {
+     "code": "un-rapporteur-mediacide-platforms",
+     "status": "pattern",
+     "name": "Palestinian posts suppressed on Meta since 2023",
+     "ctx": "Cited in the UN Special Rapporteur's report to the General Assembly.",
+     "reading": "38.8m",
+     "unit": "posts on Facebook and Instagram",
+     "kind": "UN report",
+     "src": "UN, A/81/249",
+     "at": "9 Oct",
+     "href": "report/un-rapporteur-mediacide-platforms.html"
+    },
+    {
+     "code": "anas-al-sharif-instagram-archive-shut",
+     "status": "open",
+     "name": "Anas al-Sharif's war archive taken off Instagram",
+     "ctx": "The killed correspondent's account was shut; Meta has given no reason.",
+     "reading": "Shut",
+     "unit": "no reason given",
+     "kind": "Account closed",
+     "src": "Statement on his X account",
+     "at": "9 Oct",
+     "href": "report/anas-al-sharif-instagram-archive-shut.html"
+    },
+    {
+     "code": "settlers-whatsapp-stop-the-harvest",
+     "status": "incident",
+     "name": "WhatsApp call to block olive pickers",
+     "ctx": "A \"Stop the Harvest\" poster told settlers to gather near Neve Daniel before dawn.",
+     "reading": "6:15",
+     "unit": "gathering time on the poster",
+     "kind": "Single event",
+     "src": "The New Arab",
+     "at": "12 Oct",
+     "href": "report/settlers-whatsapp-stop-the-harvest.html"
+    },
+    {
+     "code": "al-jazeera-law-blocks-2026",
+     "status": "open",
+     "name": "The Al Jazeera law, extended",
+     "ctx": "Now reaches websites and YouTube channels, with no court approval needed.",
+     "reading": "2027",
+     "unit": "runs to 31 December",
+     "kind": "Law",
+     "src": "Israeli government; CPJ",
+     "at": "26 Jan",
+     "href": "report/al-jazeera-law-blocks-2026.html"
+    }
+   ]
+  },
+  {
+   "key": "creators",
+   "title": "Creators",
+   "by": "Palestinians who report, film and post for themselves",
+   "rows": [
+    {
+     "code": "concrete-land-grierson-award-london",
+     "status": "recognised",
+     "name": "Concrete Land wins the Grierson Award",
+     "ctx": "Asmahan Bkerat's debut documentary, filmed over eight years, at the London Film Festival.",
+     "reading": "London",
+     "unit": "best documentary",
+     "kind": "Award",
+     "src": "BFI London Film Festival",
+     "at": "18 Oct",
+     "href": "report/concrete-land-grierson-award-london.html"
+    },
+    {
+     "code": "prix-bayeux-gaza-photographers",
+     "status": "recognised",
+     "name": "Gaza reporting takes four Bayeux prizes",
+     "ctx": "Mahmoud Abu Hamda won the jury's and the public's photo prizes.",
+     "reading": "4",
+     "unit": "prizes for work from Gaza",
+     "kind": "Award",
+     "src": "Prix Bayeux, via AFP",
+     "at": "10 Oct",
+     "href": "report/prix-bayeux-gaza-photographers.html"
+    },
+    {
+     "code": "saleh-al-jafarawi-one-year",
+     "status": "open",
+     "name": "Saleh al-Jafarawi, a year on",
+     "ctx": "Shot dead in Gaza City days after the ceasefire; no investigation result found.",
+     "reading": "1",
+     "unit": "year without an answer",
+     "kind": "Anniversary",
+     "src": "Al Jazeera English; CPJ",
+     "at": "12 Oct",
+     "href": "report/saleh-al-jafarawi-one-year.html"
+    },
+    {
+     "code": "jehad-alshrafi-deauville-photo-reinstated",
+     "status": "resolved",
+     "name": "A Gaza football photo, put back by a court",
+     "ctx": "Deauville removed Jehad Alshrafi's picture; a court in Caen ordered it returned.",
+     "reading": "€1,000",
+     "unit": "costs against the town",
+     "kind": "Ruling",
+     "src": "Caen administrative court",
+     "at": "31 Aug",
+     "href": "report/jehad-alshrafi-deauville-photo-reinstated.html"
+    }
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "id": "ioda-gaza-steady-24-oct",
+   "desk": "networks",
+   "status": "degraded",
+   "date": "2026-10-24",
+   "published": "2026-10-24",
+   "place": "Gaza Strip",
+   "headline": "Gaza's routed internet holds at a fifth of its pre-war size; no outage alert since September",
+   "summary": "Internet measurements from IODA show Gaza's network stable but deeply shrunk: 155 of 704 pre-war address blocks are visible in global routing. The count edged up from 147 in late September, and IODA has logged no Gaza outage since a 35-minute dip on 16 September.",
+   "body": "Gaza's networks were neither cut nor restored this month; they stayed small. IODA, the internet outage monitor run at Georgia Tech, counted 155 Gaza /24 address blocks in global routing on 24 October, against 704 in the week before the war (IODA, 24 Oct).\n\nThe figure crept up during October. It sat at 147 from 24 to 30 September, rose to 151 on 4 October and to 155 on 9 October, and has held there since (IODA daily medians, 24 Sep–24 Oct).\n\nActive probing tells a harsher story. On a typical day only about eight Gaza blocks answer IODA's pings, compared with roughly 196 in early October 2023 (IODA, 1–6 Oct 2023 and 24 Oct 2026). IODA's probing method has changed since 2023, so this comparison is rough, but the gap is far larger than any method effect.\n\nThe last outage event IODA recorded for Gaza was a 35-minute routing dip on 16 September, from 04:10 to 04:45 UTC; there has been none since (IODA outage events). Address blocks measure network reach, not people online, and Gaza's mobile network still runs on 2G only (Palestinian Ministry of Telecommunications, via WAFA, 21 Oct).",
+   "people": [],
+   "source": "IODA, Georgia Tech",
+   "via": "our reading of the IODA data",
+   "url": "https://ioda.inetintel.cc.gatech.edu/region/1226",
+   "more_urls": [
+    "https://api.ioda.inetintel.cc.gatech.edu/v2/signals/raw/region/1226?from=1790208000&until=1792843200",
+    "https://api.ioda.inetintel.cc.gatech.edu/v2/outages/events?entityType=region&entityCode=1226&from=1785542400&until=1792843200&limit=500&format=ioda"
+   ],
+   "reading": "155 of 704",
+   "reading_unit": "routed /24 address blocks",
+   "reading_note": "On 24 Oct 2026 IODA saw 155 of the 704 Gaza /24 blocks that were routed on 1–6 Oct 2023 (22%); only about 8 blocks answered active probes, against about 196 before the war.",
+   "background": false,
+   "area": "gaza",
+   "byline": "IODA, Georgia Tech, via our reading of the IODA data · 24 Oct 2026",
+   "outlet": "our reading of the IODA data"
+  },
+  {
+   "id": "ioda-west-bank-steady",
+   "desk": "networks",
+   "status": "steady",
+   "date": "2026-10-24",
+   "published": "2026-10-24",
+   "place": "West Bank",
+   "headline": "West Bank networks stay steady; two October IODA alerts were measurement gaps, not outages",
+   "summary": "IODA's signals for the West Bank were flat through October. A 30-minute routing blip on 13 October touched 2% of address blocks, and two probing alerts on 15 and 18 October came from a gap that hit Israel, Jordan, Egypt and Lebanon at the same minutes.",
+   "body": "The West Bank's internet looked steady all month. IODA counted 3,015 routed /24 blocks on 24 October and about 1,407 blocks answering its probes, close to the levels of late September (IODA, 24 Sep–24 Oct).\n\nIODA's alert feed did flag three events. The first, on 13 October from 02:25 to 02:55 UTC, was a drop from 3,016 to 2,956 routed blocks, about 2%; Israel and Jordan were unaffected and active probing in the West Bank did not fall, so it looks like a short routing blip rather than a felt outage (IODA).\n\nThe other two, on 15 October at 22:20 UTC and on 18 October at midnight UTC, were drops in probe answers. The same data gap appears at the same minutes for Israel, Jordan, Egypt, Lebanon and Gaza, which points to a problem in IODA's own probing, not a West Bank outage (IODA cross-check).\n\nIODA reads the West Bank as one region, so a local disruption, such as during the closure of Hebron from 22–23 October, would not necessarily show in these figures (IODA; closure reported by WAFA and Times of Israel).",
+   "people": [],
+   "source": "IODA, Georgia Tech",
+   "via": "our reading of the IODA data",
+   "url": "https://ioda.inetintel.cc.gatech.edu/region/4581",
+   "more_urls": [
+    "https://api.ioda.inetintel.cc.gatech.edu/v2/signals/raw/region/4581?from=1790208000&until=1792843200",
+    "https://api.ioda.inetintel.cc.gatech.edu/v2/outages/alerts?entityType=region&entityCode=4581&from=1785542400&until=1792843200&limit=500",
+    "https://www.timesofisrael.com/liveblog_entry/palestinians-in-hebron-report-widespread-closures-blocked-roads-amid-idf-op-in-west-bank-city/"
+   ],
+   "reading": "3,015",
+   "reading_unit": "routed /24 address blocks",
+   "reading_note": "IODA, 24 Oct 2026: 3,015 West Bank /24 blocks in global routing and about 1,407 answering probes; both flat for the past month.",
+   "background": false,
+   "area": "west-bank",
+   "byline": "IODA, Georgia Tech, via our reading of the IODA data · 24 Oct 2026",
+   "outlet": "our reading of the IODA data"
+  },
+  {
+   "id": "west-bank-4g-still-pending",
+   "desk": "networks",
+   "status": "steady",
+   "date": "2026-10-24",
+   "published": "2026-08-12",
+   "place": "West Bank",
+   "headline": "Ten months after Israel's 4G approval, West Bank phones are still on 3G",
+   "summary": "Israel approved the arrangements for Jawwal and Ooredoo to move to 4G in January, with a rollout expected within months. By August both operators were still preparing, and Ooredoo's own accounts reportedly assume a 2027 start; Gaza was not part of the approval.",
+   "body": "On 6 January Israel's Communications Ministry said it had approved management arrangements involving Jawwal, Ooredoo Palestine and Ericsson to upgrade West Bank mobile networks to 4G, under a 2022 framework with the Palestinian Authority (Reuters via Zawya, 6 Jan; Jerusalem Post, 6 Jan). Israeli media expected the process to take up to six months (Reuters via Zawya).\n\nThat window has passed. In its results for the first half of 2026, Jawwal said it was still preparing to launch 4G in the West Bank and gave no date (Jawwal results, via Sada News, 12 Aug).\n\nA review of Ooredoo Palestine's half-year accounts found that the company's impairment model assumes a West Bank rollout beginning in 2027 and mid-2027 for Gaza; the outlet stresses this is an accounting assumption, not a launch promise, and that no frequency assignments for either operator have been published (Times of Palestine, 30 Jul).\n\nThe Palestinian telecom ministry's 2025 report repeats that Israeli limits on spectrum and equipment kept 4G and 5G off the market (WAFA, 21 Oct). Gaza, excluded from the January approval, remains on 2G (Times of Israel, Jan; World Bank–UN–EU assessment, Apr).",
+   "people": [],
+   "source": "Israeli Communications Ministry; Jawwal; Ooredoo Palestine accounts",
+   "via": "Reuters (via Zawya); Sada News; Times of Palestine",
+   "url": "https://www.sadanews.ps/en/business/325429.html",
+   "more_urls": [
+    "https://www.zawya.com/en/world/middle-east/israel-approves-upgrade-to-4g-mobile-services-to-palestinians-in-west-bank-lwvykie3",
+    "https://www.jpost.com/middle-east/article-882496",
+    "https://www.al-monitor.com/originals/2026/01/israel-approves-upgrade-4g-mobile-services-palestinians-west-bank",
+    "https://www.timesofpalestine.com/en/story/israel-s-spectrum-hold-delays-palestinian-4g-to-7c751a9c6d.html",
+    "https://www.sadanews.ps/business/346025.html"
+   ],
+   "reading": "3G",
+   "reading_unit": "best mobile generation available on Palestinian networks in the West Bank (Gaza: 2G)",
+   "reading_note": "Israel approved the West Bank 4G arrangements on 6 Jan 2026; as of Jawwal's half-year results (12 Aug 2026) the company was still preparing to launch, and no launch has been announced since.",
+   "background": false,
+   "area": "west-bank",
+   "byline": "Israeli Communications Ministry; Jawwal; Ooredoo Palestine accounts, via Reuters (via Zawya); Sada News; Times of Palestine · 24 Oct 2026",
+   "outlet": "Reuters (via Zawya); Sada News; Times of Palestine",
+   "photo": {
+    "slug": "west-bank-4g-still-pending",
+    "alt": "A Jawwal billboard over Salfit's market advertising 100 Mbps for 99 shekels, March 2026",
+    "caption": "A Jawwal billboard over Salfit's market advertising 100 Mbps for 99 shekels, March 2026. Photo: أمين (Commons user) / Wikimedia Commons, CC BY-SA 4.0.",
+    "kind": "subject"
+   }
+  },
+  {
+   "id": "saleh-shawka-arrested",
+   "desk": "press",
+   "status": "incident",
+   "date": "2026-10-22",
+   "published": "2026-10-22",
+   "place": "Al-Eizariya, Jerusalem Governorate",
+   "headline": "Israeli forces arrest journalist Saleh Shawka at his home in al-Eizariya",
+   "summary": "Israeli forces arrested journalist Saleh Shawka, a secretariat member of the Democratic Media Forum, at his home in al-Eizariya before dawn on 22 October after searching the house, the forum said, demanding his release.",
+   "body": "The Democratic Media Forum said Israeli forces arrested its secretariat member, journalist Saleh Shawka, at his home in al-Eizariya, east of Jerusalem, before dawn on Thursday 22 October, after searching the house and frightening his children (Democratic Media Forum via Wattan, 22 Oct).\n\nThe forum held Israel responsible for his safety, asked that his place of detention be disclosed and called for his release, describing the arrest as part of a rising campaign against journalists in the West Bank (Wattan, 22 Oct).\n\nNo charge, court date or Israeli statement had been reported by 24 October.",
+   "people": [
+    "Saleh Shawka"
+   ],
+   "source": "Democratic Media Forum",
+   "via": "Wattan News Agency",
+   "url": "https://www.wattan.net/ar/news/499380.html",
+   "more_urls": [],
+   "reading": "",
+   "reading_unit": "",
+   "reading_note": "",
+   "background": false,
+   "area": "west-bank",
+   "byline": "Democratic Media Forum, via Wattan News Agency · 22 Oct 2026",
+   "outlet": "Wattan News Agency",
+   "photo": {
+    "slug": "saleh-shawka-arrested",
+    "alt": "Al-Eizariya, east of Jerusalem, from the air, May 2023",
+    "caption": "Al-Eizariya, east of Jerusalem, from the air, May 2023. Photo: Hagai Agmon-Snir / Wikimedia Commons, CC BY-SA 4.0.",
+    "kind": "place"
+   }
+  },
+  {
+   "id": "ministry-telecom-indicators-2025",
+   "desk": "networks",
+   "status": "degraded",
+   "date": "2026-10-21",
+   "published": "2026-10-21",
+   "place": "Ramallah (Ministry of Telecommunications and Digital Economy)",
+   "headline": "Fibre now carries 71% of Palestinian home internet, but mobile is still 3G and 2G",
+   "summary": "The Palestinian telecom ministry's 2025 indicators show fast growth in home fibre, to more than 327,000 lines. Mobile networks remain stuck on 3G in the West Bank and 2G in Gaza because of Israeli limits on spectrum and equipment, and Gaza's network damage is listed as a reconstruction priority.",
+   "body": "The Ministry of Telecommunications and Digital Economy published its sector indicators for 2025, covering 2023 to 2025 (WAFA, 21 Oct; Ajyal, 21 Oct).\n\nFixed internet is the bright spot. Fibre subscriptions rose from about 145,000 in 2023 to more than 327,000 at the end of 2025, or 71.4% of all fixed internet lines, and about 316,000 lines now run at 100 Mbps or more (ministry report, via Ajyal).\n\nMobile is the weak spot. The report counts about 4.49 million mobile subscriptions and about 891,000 active mobile internet subscriptions, and says Palestinian networks still rely on 3G in the West Bank and 2G in Gaza because Israel restricts access to spectrum and to modern equipment; no 4G or 5G service ran commercially in 2025 (ministry report, via WAFA and Ajyal).\n\nFor Gaza, the ministry says the networks suffered wide damage, that equipment, spare parts and power are hard to obtain, and that rebuilding them is a priority for recovery (ministry report, via Ajyal).",
+   "people": [],
+   "source": "Palestinian Ministry of Telecommunications and Digital Economy",
+   "via": "WAFA; Ajyal Radio Network",
+   "url": "https://www.wafa.ps/news/2026/10/21/%D8%A7%D9%84%D8%A7%D8%AA%D8%B5%D8%A7%D9%84%D8%A7%D8%AA-%D8%A7%D9%84%D8%A3%D9%84%D9%8A%D8%A7%D9%81-%D8%A7%D9%84%D8%B6%D9%88%D8%A6%D9%8A%D8%A9-%D8%AA%D8%B4%D9%83%D9%84-714-%D9%85%D9%86",
+   "more_urls": [
+    "https://arn.ps/post/306743.html"
+   ],
+   "reading": "71.4%",
+   "reading_unit": "share of fixed internet subscriptions on fibre, end of 2025",
+   "reading_note": "Ministry report published 21 Oct 2026: fibre subscriptions grew from 145,000 (2023) to over 327,000 (end-2025), 71.4% of fixed internet lines.",
+   "background": false,
+   "area": "west-bank",
+   "byline": "Palestinian Ministry of Telecommunications and Digital Economy, via WAFA; Ajyal Radio Network · 21 Oct 2026",
+   "outlet": "WAFA; Ajyal Radio Network",
+   "photo": {
+    "slug": "ministry-telecom-indicators-2025",
+    "alt": "A Paltel Group branch in Salfit, with the company's Arabic and English signage, June 2020",
+    "caption": "A Paltel Group branch in Salfit, with the company's Arabic and English signage, June 2020. Photo: أمين (Commons user) / Wikimedia Commons, CC BY-SA 4.0.",
+    "kind": "subject"
+   }
+  },
+  {
+   "id": "tuqu-schools-flags-bethlehem-student-phone",
+   "desk": "speech",
+   "status": "incident",
+   "date": "2026-10-21",
+   "published": "2026-10-21",
+   "place": "Tuqu' and Bethlehem",
+   "headline": "Troops enter two Tuqu' classrooms, threaten closure and take Palestinian flags",
+   "summary": "Israeli soldiers walked into two schools in Tuqu', south-east of Bethlehem, during morning lessons, threatened staff and pupils with punishment and closure, and confiscated Palestinian flags. In Bethlehem the same morning, troops reportedly inspected the phone of a student union leader.",
+   "body": "Israeli troops entered al-Khansa Preparatory School for Boys and al-Jarmaq Preparatory School for Girls in Tuqu' on Wednesday 21 October, during the first lesson of the day, according to the town's municipal director Tayseer Abu Mufreh (WAFA, 21 Oct).\n\nAbu Mufreh said soldiers threatened pupils and teachers with punitive measures and warned that both schools could be closed. Before leaving they confiscated Palestinian flags (WAFA, 21 Oct).\n\nIn Bethlehem and nearby Aida camp, troops searched the home of Elias Freij and inspected the phone of his son, who heads a student union council, according to security sources cited in a report drawing on WAFA (Egyptian Gazette, 21 Oct).\n\nThe incidents fit the pattern the Prisoners' Society described two weeks earlier, in which schools, symbols and phones are treated as evidence of \"incitement\" (WAFA, 5 Oct). No Israeli military statement was found.",
+   "people": [
+    "Tayseer Abu Mufreh",
+    "Elias Freij"
+   ],
+   "source": "Tuqu' municipality; Palestinian security sources",
+   "via": "WAFA",
+   "url": "https://english.wafa.ps/Pages/Details/176139",
+   "more_urls": [
+    "https://egyptian-gazette.com/world/israeli-forces-arrest-dozens-of-palestinians-in-west-bank-raids/"
+   ],
+   "reading": "2",
+   "reading_unit": "schools raided in Tuqu'",
+   "reading_note": "Troops entered two preparatory schools in Tuqu' during the first lesson on 21 Oct 2026 (WAFA).",
+   "background": false,
+   "area": "west-bank",
+   "byline": "Tuqu' municipality; Palestinian security sources, via WAFA · 21 Oct 2026",
+   "outlet": "WAFA",
+   "photo": {
+    "slug": "tuqu-schools-flags-bethlehem-student-phone",
+    "alt": "View from Herodium: the Tekoa settlement in front, Tuqu' at centre left (April 2010)",
+    "caption": "View from Herodium: the Tekoa settlement in front, Tuqu' at centre left (April 2010). Photo: Deror avi / Wikimedia Commons, CC BY-SA 3.0.",
+    "kind": "place"
+   }
+  },
+  {
+   "id": "hazem-nasser-released",
+   "desk": "press",
+   "status": "resolved",
+   "date": "2026-10-20",
+   "published": "2026-10-21",
+   "place": "Shuweika, north of Tulkarm",
+   "headline": "Journalist Hazem Nasser freed after 27 months held without charge",
+   "summary": "Israel released Tulkarm journalist Hazem Nasser on 20 October after two years and three months of administrative detention, held on secret evidence with no charge or trial, prisoners' groups and local outlets reported.",
+   "body": "Israeli authorities released journalist Hazem Nasser of Shuweika, north of Tulkarm, on Tuesday 20 October (PNN, 21 Oct; Felesteen, 21 Oct; Wattan; Al-Kofiya).\n\nNasser was arrested in a dawn raid on his home on 25 July 2024 and placed under a five-month administrative detention order that was then renewed repeatedly; he was never charged or tried (Palestinian Center for Defense of Prisoners, via Felesteen).\n\nAdministrative detention lets Israel hold Palestinians on secret files that neither the detainee nor the lawyer can fully see (Felesteen). His release leaves the number of journalists in custody below the 39 the Prisoners' Society reported in September (PPS via WAFA, 17 Sep).",
+   "people": [
+    "Hazem Nasser"
+   ],
+   "source": "Palestinian Center for Defense of Prisoners; local sources",
+   "via": "PNN; Felesteen; Wattan; Al-Kofiya",
+   "url": "https://pnn.ps/news/729203",
+   "more_urls": [
+    "https://felesteen.news/post/188631/",
+    "https://www.wattan.net/ar/news/499216.html",
+    "https://www.alkofiya.ps/ar/post/357749",
+    "https://msdrnews.com/128631/"
+   ],
+   "reading": "27",
+   "reading_unit": "months in administrative detention without charge",
+   "reading_note": "Held from 25 Jul 2024 to 20 Oct 2026 under renewed administrative detention orders (Palestinian Center for Defense of Prisoners).",
+   "background": false,
+   "area": "west-bank",
+   "byline": "Palestinian Center for Defense of Prisoners; local sources, via PNN; Felesteen; Wattan; Al-Kofiya · 20 Oct 2026",
+   "outlet": "PNN; Felesteen; Wattan; Al-Kofiya",
+   "photo": {
+    "slug": "hazem-nasser-released",
+    "alt": "Tulkarm from the air, August 2020; Nasser's home suburb of Shuweika lies on the city's northern side and is not singled out in this view",
+    "caption": "Tulkarm from the air, August 2020; Nasser's home suburb of Shuweika lies on the city's northern side and is not singled out in this view. Photo: Mohammad Hijjawi / Wikimedia Commons, CC BY-SA 4.0.",
+    "kind": "place"
+   }
+  },
+  {
+   "id": "arrests-after-levine-attack",
+   "desk": "press",
+   "status": "open",
+   "date": "2026-10-19",
+   "published": "2026-10-19",
+   "place": "West Bank (Abu Falah and Taybeh attacks)",
+   "headline": "Israeli police arrest 10 after settler attacks on a US journalist and European diplomats",
+   "summary": "Three days after Heidi Levine was beaten, Israeli police arrested 10 people over the weekend's settler attacks on her and on European diplomats in Taybeh. Police did not name the suspects or say what role each played.",
+   "body": "Israeli police said on Monday 19 October they had arrested 10 people in connection with settler violence over the weekend, including the beating of photojournalist Heidi Levine in Abu Falah on 16 October and an attack the next day on a delegation of diplomats in Taybeh (AP via PBS, 19 Oct; JTA, 19 Oct).\n\nPolice did not identify the suspects or their roles, and said the Shin Bet, the Border Police and the military took part; the same operation targeted suspected breaches of a closed military zone and illegal building (AP via PBS).\n\nUS Ambassador Mike Huckabee called the attack on Levine an act of terror by masked cowards, and Belgium's foreign minister said impunity for violent settlers must end (AP via PBS). From hospital, Levine said she was shocked that Netanyahu had called the attack 'alleged' (AP via PBS).\n\nNo charges had been reported by 24 October.",
+   "people": [
+    "Heidi Levine",
+    "Mike Huckabee",
+    "Maxime Prévot",
+    "Benjamin Netanyahu"
+   ],
+   "source": "Israel Police",
+   "via": "AP (via PBS); JTA; CNN; NBC",
+   "url": "https://www.pbs.org/newshour/world/israeli-police-arrest-10-following-weekend-attacks-by-west-bank-settlers-on-journalist-and-diplomats",
+   "more_urls": [
+    "https://www.jta.org/2026/10/19/israel/israeli-police-arrest-suspects-in-washington-post-journalist-attack",
+    "https://www.cnn.com/world/middleeast/amid-us-pressure-on-settler-violence-israel-arrests-at-least-10-suspected-of-west-bank-attacks-on-journalist-diplomats",
+    "https://www.nbcnews.com/world/middle-east/israel-police-arrest-10-settler-attacks-us-journalist-european-diploma-rcna604291"
+   ],
+   "reading": "10",
+   "reading_unit": "people arrested by Israeli police",
+   "reading_note": "Israeli police, Monday 19 Oct 2026: 10 arrests linked to the weekend attacks on a journalist and on diplomats; suspects not named.",
+   "background": false,
+   "area": "west-bank",
+   "byline": "Israel Police, via AP (via PBS); JTA; CNN; NBC · 19 Oct 2026",
+   "outlet": "AP (via PBS); JTA; CNN; NBC",
+   "photo": {
+    "slug": "arrests-after-levine-attack",
+    "alt": "Houses of Abu Falah, the village where Heidi Levine was attacked, April 2019",
+    "caption": "Houses of Abu Falah, the village where Heidi Levine was attacked, April 2019. Photo: Hammam AbuAlrob / Wikimedia Commons, CC BY-SA 4.0.",
+    "kind": "place"
+   }
+  },
+  {
+   "id": "fpa-high-court-gaza-access",
+   "desk": "press",
+   "status": "stalled",
+   "date": "2026-10-18",
+   "published": "2026-10-19",
+   "place": "Supreme Court (High Court of Justice), Jerusalem",
+   "headline": "Israel tells High Court foreign reporters still cannot enter Gaza without an army escort",
+   "summary": "Answering the Foreign Press Association's renewed request of 27 September, the state told the High Court that journalists must still enter Gaza only with a military escort, citing continuing risks. The court has yet to rule, more than two years after the petition was filed.",
+   "body": "In a filing dated Sunday 18 October, made at the instruction of Deputy Supreme Court President Noam Sohlberg, the state told the High Court of Justice that its security assessment still rules out independent entry to Gaza for journalists (Jerusalem Post, 19 Oct).\n\nThe Foreign Press Association had asked on 27 September for journalists to be allowed in while the case is pending, for the state to be ordered to justify the ban formally, or for an urgent hearing, arguing that conditions had changed and that aid workers now enter and move around Gaza (Jerusalem Post).\n\nThe state replied that temporary entry would in effect grant the petition before a final ruling, pointed to escorted visits it has allowed, offered the judges another classified briefing within about 20 days, and filed a supporting affidavit on Monday (Jerusalem Post).\n\nThe case has been delayed repeatedly: a January 2026 hearing heard classified material without the petitioners present, and the state filed updates in June (Jerusalem Post; FPA, 28 Jan). As of 19 October the court had not ruled (Jerusalem Post).",
+   "people": [
+    "Noam Sohlberg"
+   ],
+   "source": "State of Israel (filing to the High Court); Foreign Press Association",
+   "via": "The Jerusalem Post",
+   "url": "https://www.jpost.com/israel-news/article-912161",
+   "more_urls": [
+    "https://www.newsbeep.com/777142/",
+    "https://foreignpressassociation.online/2026/01/28/fpa-deeply-disappointed-in-supreme-courts-postponement-of-gaza-press-ruling-january-28-2026/",
+    "https://www.aljazeera.com/news/2026/1/28/israels-top-court-delays-gaza-press-access-ruling-amid-years-long-ban"
+   ],
+   "reading": "",
+   "reading_unit": "",
+   "reading_note": "",
+   "background": false,
+   "area": "israel",
+   "byline": "State of Israel (filing to the High Court); Foreign Press Association, via The Jerusalem Post · 18 Oct 2026",
+   "outlet": "The Jerusalem Post",
+   "photo": {
+    "slug": "fpa-high-court-gaza-access",
+    "alt": "The Supreme Court building in Jerusalem, which sits as the High Court of Justice in the press-access case, November 2018",
+    "caption": "The Supreme Court building in Jerusalem, which sits as the High Court of Justice in the press-access case, November 2018. Photo: Fallaner / Wikimedia Commons, CC BY-SA 4.0.",
+    "kind": "subject"
+   }
+  },
+  {
+   "id": "7amleh-captive-voices-voice-surveillance",
+   "desk": "platforms",
+   "status": "pattern",
+   "date": "2026-10-18",
+   "published": "2026-10-18",
+   "place": "West Bank and Gaza; data centres in Europe",
+   "headline": "7amleh paper traces how Palestinians' phone calls are stored and mined in the cloud",
+   "summary": "A new 7amleh paper argues Israel's interception of Palestinian calls has moved from targeted wiretaps to recording a whole population, made possible by commercial cloud storage. It names Microsoft Azure and Amazon Web Services and links the system to arrests and self-censorship.",
+   "body": "\"Captive Voices\", by researcher Sarah Fathallah, is part of a series 7amleh publishes with Birzeit University's Ibrahim Abu-Lughod Institute. It follows Palestinian voice data from interception to storage and analysis (7amleh, 18 Oct).\n\nDrawing on earlier investigations, the paper says military intelligence Unit 8200 moved recordings of Palestinian calls into a segregated area of Microsoft's Azure cloud, much of it reportedly held in the Netherlands, and that Amazon Web Services reportedly hosts large volumes of audio from Gaza. Calls are kept for about a month by default, longer on request (7amleh, 18 Oct).\n\nIt says the audio is transcribed, translated and searched, used to train an Arabic-dialect language model and fed into target-generation systems, and that transcription and voiceprint errors have had serious consequences. 7amleh links the system to mass arrests and to Palestinians censoring what they say on the phone (7amleh, 18 Oct).\n\nThe paper notes Microsoft reportedly cut some services to an Israeli defence ministry unit after pressure, and calls on cloud firms to suspend military contracts and on regulators to investigate (7amleh, 18 Oct; 7amleh weekly update, 23 Oct).",
+   "people": [
+    "Sarah Fathallah"
+   ],
+   "source": "7amleh",
+   "via": "",
+   "url": "https://7amleh.org/post/algorithmic-voice-surveillance-in-palestine-en",
+   "more_urls": [
+    "https://7amleh.org/post/digital-rights-weekly-update-22-10-en"
+   ],
+   "reading": "11,500 TB",
+   "reading_unit": "of Palestinian call audio reportedly held in the Netherlands",
+   "reading_note": "Press estimate for July 2025 cited by 7amleh's 18 Oct 2026 paper; another report put it at up to 8,000 TB.",
+   "background": false,
+   "area": "global",
+   "byline": "7amleh · 18 Oct 2026",
+   "outlet": "7amleh"
+  },
+  {
+   "id": "concrete-land-grierson-award-london",
+   "desk": "creators",
+   "status": "recognised",
+   "date": "2026-10-18",
+   "published": "2026-10-18",
+   "place": "BFI London Film Festival, London",
+   "headline": "Asmahan Bkerat's Concrete Land wins London Film Festival's documentary award",
+   "summary": "Concrete Land, the debut feature of Palestinian-Jordanian filmmaker Asmahan Bkerat, won the Grierson Award for best documentary at the BFI London Film Festival. It follows a Bedouin family of Afro-Palestinian origin facing eviction on the edge of Amman.",
+   "body": "The BFI London Film Festival announced on 18 October that Concrete Land had won the Grierson Award for best film in its documentary competition (Love London Love Culture, 18 Oct; Screen Daily).\n\nThe film follows a Bedouin family descended from Afro-Palestinians displaced from the Naqab, now facing eviction as luxury villas spread around their land on the outskirts of Amman. Bkerat, a former photographer, shot it over about eight years and is credited as director and cinematographer (The New Arab; Eye For Film, Aug).\n\nThe documentary jury, chaired by Sandhya Suri, praised it as a confident, finely observed portrait (Hollywood Reporter via Yahoo, Oct). The film premiered at Locarno's Critics' Week in August.\n\nConcrete Land is also in competition at the Doha Film Festival in November, and El Gouna named Bkerat to its CineGouna Emerge rising-stars cohort (Türkiye Today, 12 Oct; Yahoo Entertainment, 18 Oct).",
+   "people": [
+    "Asmahan Bkerat",
+    "Sandhya Suri"
+   ],
+   "source": "BFI London Film Festival",
+   "via": "Screen Daily; Hollywood Reporter",
+   "url": "https://www.screendaily.com/news/bfi-london-film-festival-unveils-2026-award-winners/5221561.article",
+   "more_urls": [
+    "https://lovelondonloveculture.com/2026/10/18/news-70th-bfi-london-film-festival-announces-2026-award-winners/",
+    "https://www.yahoo.com/entertainment/movies/articles/imperium-concrete-land-9-temples-130000306.html",
+    "https://www.newarab.com/features/concrete-land-asmahan-bkerat-palestine-land-and-belonging",
+    "https://www.palestinefilminstitute.org/en/palestine-film-fund/grantees/archive/concrete-land"
+   ],
+   "reading": "8",
+   "reading_unit": "years of filming",
+   "reading_note": "Bkerat filmed the family for about eight years (festival and trade coverage, Oct 2026).",
+   "background": false,
+   "area": "global",
+   "byline": "BFI London Film Festival, via Screen Daily; Hollywood Reporter · 18 Oct 2026",
+   "outlet": "Screen Daily; Hollywood Reporter"
+  },
+  {
+   "id": "murtaja-killed-gaza-city",
+   "desk": "press",
+   "status": "incident",
+   "date": "2026-10-17",
+   "published": "2026-10-17",
+   "place": "Al-Italiani area, al-Nasr neighbourhood, western Gaza City",
+   "headline": "Gaza City buries journalist Obaida Murtaja, reported killed in a drone strike",
+   "summary": "Mourners in Gaza City buried journalist Obaida Murtaja on 17 October after he was killed, local outlets reported, by an Israeli drone strike on a group of people in the al-Nasr neighbourhood. The report has not been confirmed by the syndicate, CPJ or Gaza's media office.",
+   "body": "Fellow journalists carried the body of Obaida Murtaja from al-Shifa Medical Complex to the martyrs' cemetery in Gaza City on Saturday 17 October (Shehab, 17 Oct; PalInfo, 17 Oct).\n\nLocal sources said he was killed, and several other people wounded, when an Israeli drone struck a group of civilians in the al-Italiani area of the al-Nasr neighbourhood in western Gaza City (Shehab, 17 Oct). The report does not say when the strike happened or which outlet he worked for.\n\nMourners called for protection for journalists and accountability for attacks on the press (Shehab). The same report recalls that Gaza's media office counted 263 journalists killed as of 30 September; we found no updated official count that includes Murtaja (Shehab; GMO, 30 Sep).",
+   "people": [
+    "Obaida Murtaja"
+   ],
+   "source": "Local sources",
+   "via": "Shehab News Agency; Palestinian Information Center",
+   "url": "https://shehabnews.com/post/166062/",
+   "more_urls": [
+    "https://palinfo.com/news/2026/10/17/1121142"
+   ],
+   "reading": "",
+   "reading_unit": "",
+   "reading_note": "",
+   "background": false,
+   "area": "gaza",
+   "byline": "Local sources, via Shehab News Agency; Palestinian Information Center · 17 Oct 2026",
+   "outlet": "Shehab News Agency; Palestinian Information Center",
+   "photo": {
+    "slug": "murtaja-killed-gaza-city",
+    "alt": "A destroyed house on al-Nasr Street in Gaza City's al-Nasr neighbourhood, February 2025 (not the October 2026 strike)",
+    "caption": "A destroyed house on al-Nasr Street in Gaza City's al-Nasr neighbourhood, February 2025 (not the October 2026 strike). Photo: Hla.bashbash / Wikimedia Commons, CC BY 4.0.",
+    "kind": "place"
+   }
+  },
+  {
+   "id": "heidi-levine-beaten-abu-falah",
+   "desk": "press",
+   "status": "incident",
+   "date": "2026-10-16",
+   "published": "2026-10-16",
+   "place": "Abu Falah (Khirbet Abu Falah), north-east of Ramallah",
+   "headline": "Masked settlers beat Washington Post photographer Heidi Levine during the olive harvest",
+   "summary": "A crowd of masked settlers beat American photojournalist Heidi Levine, working for The Washington Post, in Abu Falah on 16 October while she photographed olive pickers. She suffered broken ribs and vertebrae and a nearly severed finger, and her cameras and phone were stolen.",
+   "body": "Heidi Levine, an American photojournalist working for The Washington Post, was beaten by masked settlers in the village of Abu Falah, north-east of Ramallah, on Friday 16 October while photographing Palestinians harvesting olives; she was wearing a vest marked 'Press' (NPR, 16 Oct; CPJ, 16 Oct).\n\nShe said at least 50 masked men came down from a hilltop, pushed her to the ground and kicked her repeatedly; her cameras and phone were taken (NPR). AP later reported several broken ribs and vertebrae, a nearly severed finger that needed surgery and apparent stab wounds that required stitches (AP via PBS, 19 Oct).\n\nThe Post said it was outraged and asked for a thorough investigation; after the prime minister's office said the facts were unclear, the paper replied that she was clearly marked as press and clearly beaten (NPR). The Israeli military said forces used riot-dispersal measures and warning shots toward a suspect carrying a sharp object (CPJ). The Palestine Red Crescent counted two dozen settler attacks on harvesters that day, with 20 people hurt (NPR).\n\nThe Palestinian Journalists Syndicate condemned the attack and urged the US government to hold the attackers to account (PJS via Sada News). CPJ said the beating fits a pattern of at least 16 incidents this year involving at least 35 journalists, and that impunity emboldens attackers (CPJ, 16 Oct).",
+   "people": [
+    "Heidi Levine",
+    "Sara Qudah",
+    "Benjamin Netanyahu"
+   ],
+   "source": "Heidi Levine; The Washington Post; CPJ; Palestine Red Crescent",
+   "via": "NPR; AP (via PBS)",
+   "url": "https://www.npr.org/2026/10/16/nx-s1-6004904/israeli-settlers-beat-us-photojournalist-washington-post-west-bank",
+   "more_urls": [
+    "https://cpj.org/2026/10/american-photojournalist-heidi-levine-attacked-by-israeli-settlers-in-west-bank/",
+    "https://www.pbs.org/newshour/world/israeli-police-arrest-10-following-weekend-attacks-by-west-bank-settlers-on-journalist-and-diplomats",
+    "https://www.sadanews.ps/news/343440.html",
+    "https://www.nbcnews.com/world/middle-east/israeli-settlers-burn-olive-trees-injure-journalist-west-bank-attack-rcna603864",
+    "https://www.aljazeera.com/news/2026/10/16/palestinians-us-journalist-attacked-in-west-bank-pogrom-what-we-know",
+    "https://www.cnn.com/2026/10/22/middleeast/washington-post-journalist-attack-west-bank-settlers-intl-hnk"
+   ],
+   "reading": "16",
+   "reading_unit": "settler incidents against journalists CPJ had reviewed in 2026",
+   "reading_note": "CPJ, 16 Oct 2026: at least 16 incidents this year involving at least 35 local and international journalists (attacks, harassment, obstruction, intimidation).",
+   "background": false,
+   "area": "west-bank",
+   "byline": "Heidi Levine; The Washington Post; CPJ; Palestine Red Crescent, via NPR; AP (via PBS) · 16 Oct 2026",
+   "outlet": "NPR; AP (via PBS); CPJ",
+   "photo": {
+    "slug": "heidi-levine-beaten-abu-falah",
+    "alt": "The village of Abu Falah seen from the north-east, March 2026",
+    "caption": "The village of Abu Falah seen from the north-east, March 2026. Photo: יאיר דב (Yair Dov) / Wikimedia Commons, CC BY-SA 4.0.",
+    "kind": "place"
+   }
+  },
+  {
+   "id": "cpj-alert-escalating-violations",
+   "desk": "press",
+   "status": "pattern",
+   "date": "2026-10-13",
+   "published": "2026-10-13",
+   "place": "West Bank and Israel",
+   "headline": "CPJ warns of a widening Israeli campaign against Palestinian and foreign journalists",
+   "summary": "The Committee to Protect Journalists demanded that Israel stop a wave of violations against reporters, from the olive-harvest attacks and detentions to the deportation of a Portuguese journalist and entry and visa refusals for foreign correspondents.",
+   "body": "CPJ said on 13 October it was deeply alarmed by a run of Israeli violations against the press and demanded that journalists be allowed to work without intimidation (CPJ, 13 Oct, updated 16 Oct).\n\nIts list starts with the olive harvest: settlers beating AFP's Jaafar Ashtiyeh on 6 October and the detention the same day of journalists Mohammad Abed and Mohammad Atiq (CPJ). It adds the arrest of Portuguese correspondent Ricardo Esteves Ribeiro in Rantis on 8 October and his deportation the next day, and rubber bullets that hit Palestinian photojournalist Issam al-Rimawi near Ramallah on 10 October (CPJ).\n\nCPJ also reported that British journalist Secunder Kermani, working for Channel 4, was refused entry and briefly held by immigration on 11 October before the decision was reversed, and that Israel reportedly turned down a work visa for German journalist Serena Bilanceri, due to report for Die Tageszeitung (CPJ). It counted at least six other entry refusals of journalists in June (CPJ).\n\nCPJ's regional director Sara Qudah said such actions against Palestinian and foreign journalists were becoming more frequent; Israel's Population and Immigration Authority did not respond to CPJ (CPJ).",
+   "people": [
+    "Sara Qudah",
+    "Jaafar Ashtiyeh",
+    "Mohammad Abed",
+    "Mohammad Atiq",
+    "Ricardo Esteves Ribeiro",
+    "Issam al-Rimawi",
+    "Secunder Kermani",
+    "Serena Bilanceri"
+   ],
+   "source": "Committee to Protect Journalists",
+   "via": "CPJ",
+   "url": "https://cpj.org/2026/10/cpj-demands-israel-halt-escalating-violations-against-journalists/",
+   "more_urls": [],
+   "reading": "",
+   "reading_unit": "",
+   "reading_note": "",
+   "background": false,
+   "area": "west-bank",
+   "byline": "Committee to Protect Journalists, via CPJ · 13 Oct 2026",
+   "outlet": "CPJ"
+  },
+  {
+   "id": "addameer-files-seized-ramallah-raid",
+   "desk": "speech",
+   "status": "incident",
+   "date": "2026-10-13",
+   "published": "2026-10-13",
+   "place": "Ramallah",
+   "headline": "Soldiers carry off files and equipment from Addameer's sealed Ramallah office",
+   "summary": "Israeli troops raided the former Ramallah office of Addameer, the prisoners' rights group, loaded its folders, equipment and furniture onto a military trailer and re-posted a closure order. Addameer's former director says the files included prisoners' legal and court records.",
+   "body": "Israeli forces raided the former headquarters of the Addameer Prisoner Support and Human Rights Association in Ramallah on Tuesday 13 October. AFP footage showed soldiers moving office equipment and folders onto a trailer hitched to a military vehicle, and the army fixed its closure order to the door again (AFP via France 24, 13 Oct).\n\nSahar Francis, Addameer's former director, said the office holds legal files and court records for Palestinian prisoners, and that troops broke much of what they did not take. She called the raid a \"propaganda show\" ahead of Israel's 27 October election; she said Israel claimed the property was used to support terrorism (Democracy Now, 14 Oct).\n\nIsrael shut Addameer's office in August 2022 after designating it and six other Palestinian NGOs \"terrorist organisations\" (AFP, 13 Oct). The Palestinian Human Rights Organizations Council said the raids, which also hit the Union of Palestinian Women's Committees and the Palestine Medical Complex, aimed to suppress documentation of abuses against detainees (PHROC via UN NGO Action News, 22 Oct).\n\nThe Palestinian health ministry said a young man and a 14-year-old were shot and wounded in the area, and AFP reported four journalists hurt by tear gas and stun grenades. The army did not respond to AFP's request for comment (AFP, 13 Oct).",
+   "people": [
+    "Sahar Francis"
+   ],
+   "source": "AFP; Addameer (Sahar Francis); PHROC",
+   "via": "France 24 (AFP)",
+   "url": "https://www.france24.com/en/live-news/20261013-palestinian-officials-say-israeli-army-wounds-two-in-ramallah-raid",
+   "more_urls": [
+    "https://www.democracynow.org/2026/10/14/israel_raids_west_bank_ngos",
+    "https://www.aljazeera.com/news/2026/10/13/israeli-forces-raid-palestinian-ngos-and-hospital-in-occupied-west-bank",
+    "https://www.newarab.com/news/israel-raids-ramallah-medical-complex-palestinian-ngo-offices",
+    "https://www.un.org/unispal/document/ngo-action-news-22-october-2026/"
+   ],
+   "reading": "",
+   "reading_unit": "",
+   "reading_note": "",
+   "background": false,
+   "area": "west-bank",
+   "byline": "AFP; Addameer (Sahar Francis); PHROC, via France 24 (AFP) · 13 Oct 2026",
+   "outlet": "France 24 (AFP)"
+  },
+  {
+   "id": "settlers-whatsapp-stop-the-harvest",
+   "desk": "platforms",
+   "status": "incident",
+   "date": "2026-10-12",
+   "published": "2026-10-12",
+   "place": "Near Neve Daniel, Gush Etzion, south of Jerusalem",
+   "headline": "WhatsApp call rallies settlers to block Palestinian olive pickers near Neve Daniel",
+   "summary": "A \"Stop the Harvest\" poster circulated in settler WhatsApp groups called on people to gather before dawn near Neve Daniel to stop Palestinian farmers reaching their groves. Footage showed settlers confronting farmers, soldiers and journalists; no response from Meta was reported.",
+   "body": "A call shared in settler WhatsApp groups urged people to gather at 6:15am near the Neve Daniel settlement in the Gush Etzion bloc, before Palestinian farmers were due to arrive, and to bring water, hats and Israeli flags (The New Arab, 12 Oct).\n\nFootage showed settlers trying to stop Palestinians reaching their land and arguing with soldiers, journalists and activists. The Colonisation and Wall Resistance Commission counted at least 19 settler attacks across the West Bank by midday the previous Friday (The New Arab, 12 Oct).\n\nActivist and journalist Sam Avraham said he expected more such calls before the 27 October election (The New Arab, 12 Oct). 7amleh highlighted the WhatsApp mobilisation as an example of platforms being used to organise attacks on Palestinians (7amleh, 16 Oct).\n\nThe article reported no response from Meta, which owns WhatsApp. 7amleh's quarterly data show WhatsApp in 9 of 308 documented cases, mostly involving incitement (7amleh, 1 Oct).",
+   "people": [
+    "Sam Avraham"
+   ],
+   "source": "The New Arab",
+   "via": "",
+   "url": "https://www.newarab.com/news/israeli-settlers-mobilise-terrorise-palestinian-olive-harvest",
+   "more_urls": [
+    "https://7amleh.org/post/digital-rights-weekly-update-15-10-en"
+   ],
+   "reading": "6:15am",
+   "reading_unit": "gathering time on the 'Stop the Harvest' poster",
+   "reading_note": "Settlers were told to arrive before farmers' expected 6:30am arrival (The New Arab, 12 Oct 2026).",
+   "background": false,
+   "area": "west-bank",
+   "byline": "The New Arab · 12 Oct 2026",
+   "outlet": "The New Arab",
+   "photo": {
+    "slug": "settlers-whatsapp-stop-the-harvest",
+    "alt": "The Neve Daniel settlement south of Jerusalem (March 2009)",
+    "caption": "The Neve Daniel settlement south of Jerusalem (March 2009). Photo: Yiftachsam / Wikimedia Commons, Public domain.",
+    "kind": "place"
+   }
+  },
+  {
+   "id": "saleh-al-jafarawi-one-year",
+   "desk": "creators",
+   "status": "open",
+   "date": "2026-10-12",
+   "published": "2026-10-12",
+   "place": "Gaza City",
+   "headline": "A year after Saleh al-Jafarawi was shot in Gaza City, his killing remains unexplained",
+   "summary": "Al Jazeera English and supporters marked one year since video journalist Saleh al-Jafarawi was shot dead in Gaza City on 12 October 2025, days after the ceasefire. Accounts of who killed him still differ, and no investigation result was found.",
+   "body": "Al Jazeera English marked the anniversary on 12 October, calling his death a reminder of the dangers facing journalists in Gaza (Al Jazeera English on X, 12 Oct). A tribute published the day before recalled his frontline videos and large online following (Hifza Syed, Substack, 11 Oct).\n\nAl-Jafarawi, 27 or 28 by different accounts, was shot during clashes in the Sabra area of Gaza City between Hamas security forces and armed groups (CPJ). Local media blamed gunmen from the Doghmush clan, while Gaza's interior ministry spoke of random gunfire (The National, Oct 2025).\n\nHis portrait was carried with those of Anas al-Sharif and Khaled El-Shawa at a Nakba Day march in Madrid in May (Wikimedia Commons, 17 May 2026). Pro-Israel groups such as HonestReporting have described him as a Hamas propagandist (HonestReporting).",
+   "people": [
+    "Saleh al-Jafarawi"
+   ],
+   "source": "Al Jazeera English; CPJ",
+   "via": "Al Jazeera English (X)",
+   "url": "https://x.com/AJEnglish/status/2109464068864004476",
+   "more_urls": [
+    "https://hifzasyed.substack.com/p/one-year-without-saleh-aljafarawi",
+    "https://cpj.org/data/people/saleh-aljafarawi/",
+    "https://www.thenationalnews.com/news/mena/2025/10/13/palestinian-journalist-saleh-al-jafarawi-reported-killed-in-gaza-city-clashes/",
+    "https://www.middleeasteye.net/trending/tributes-pour-palestinian-journalist-killed-after-gaza-ceasefire"
+   ],
+   "reading": "",
+   "reading_unit": "",
+   "reading_note": "",
+   "background": false,
+   "area": "gaza",
+   "byline": "Al Jazeera English; CPJ, via Al Jazeera English (X) · 12 Oct 2026",
+   "outlet": "Al Jazeera English (X)",
+   "photo": {
+    "slug": "saleh-al-jafarawi-one-year",
+    "alt": "Saleh al-Jafarawi in a frame from one of his own videos (March 2025)",
+    "caption": "Saleh al-Jafarawi in a frame from one of his own videos (March 2025). Photo: Saleh al-Jafarawi / Wikimedia Commons, CC BY 3.0.",
+    "kind": "subject"
+   }
+  },
+  {
+   "id": "rimawi-hit-rubber-bullet",
+   "desk": "press",
+   "status": "incident",
+   "date": "2026-10-10",
+   "published": "2026-10-13",
+   "place": "Near Ramallah",
+   "headline": "Israeli troops hit Palestinian photojournalist Issam al-Rimawi with rubber bullets near Ramallah",
+   "summary": "Israeli troops fired rubber bullets that struck photojournalist Issam al-Rimawi during clashes involving settlers near Ramallah on 10 October, CPJ reported. He said he was wearing a vest marked 'Press'; the army said it used riot-dispersal means.",
+   "body": "Palestinian photojournalist Issam al-Rimawi was struck by rubber bullets fired by Israeli troops during clashes involving settlers near Ramallah on 10 October (CPJ, 13 Oct and 16 Oct).\n\nHe told CPJ he was wearing a clearly marked press vest. The Israeli military told CPJ its troops had used 'riot dispersal means' against a confrontation (CPJ, 13 Oct).\n\nThe same day WAFA and QNA reported that Israeli forces hit a journalist in the thigh with a rubber-coated bullet while he covered an attack on olive pickers in Deir Abu Mash'al, north of Ramallah, without naming him (QNA citing WAFA, 10 Oct).",
+   "people": [
+    "Issam al-Rimawi"
+   ],
+   "source": "CPJ",
+   "via": "QNA (WAFA)",
+   "url": "https://cpj.org/2026/10/cpj-demands-israel-halt-escalating-violations-against-journalists/",
+   "more_urls": [
+    "https://cpj.org/2026/10/american-photojournalist-heidi-levine-attacked-by-israeli-settlers-in-west-bank/",
+    "https://qna.org.qa/ar-QA/News-Area/News/2026-10/10/اصابة-فلسطينيين-بينهم-صحفي-خلال-اعتداء-قوات-الاحتلال-على-قاطفي-الزيتون-شمال-رام-الله"
+   ],
+   "reading": "",
+   "reading_unit": "",
+   "reading_note": "",
+   "background": false,
+   "area": "west-bank",
+   "byline": "CPJ, via QNA (WAFA) · 10 Oct 2026",
+   "outlet": "CPJ; QNA (WAFA)"
+  },
+  {
+   "id": "prix-bayeux-gaza-photographers",
+   "desk": "creators",
+   "status": "recognised",
+   "date": "2026-10-10",
+   "published": "2026-10-11",
+   "place": "Bayeux, Normandy, France",
+   "headline": "Gaza freelancer Mahmoud Abu Hamda wins Bayeux war-photography prize",
+   "summary": "Gaza-based freelance photographer Mahmoud Abu Hamda won both the jury's photo prize and the public's choice at the Prix Bayeux for war correspondents. AP's Jehad Alshrafi won the young reporter prize and NPR's Anas Baba the radio prize, both for work from Gaza.",
+   "body": "At the 33rd Prix Bayeux Calvados-Normandie on Saturday 10 October, Mahmoud Abu Hamda, a Palestinian freelancer in Gaza, won the photography trophy and the public's choice award for his series \"What the war leaves behind\". He could not attend and sent a recorded video message; he had submitted the unpublished work to the jury himself (AFP via Arab News, 11 Oct).\n\nAssociated Press photographer Jehad Alshrafi won the young reporter photo prize for \"Endless War and Devastation in Gaza\", and Palestinian journalist Anas Baba of NPR won the radio trophy for a report on recovering bodies in Gaza (AFP, 11 Oct). BBC correspondent Lyse Doucet chaired the jury.\n\nOne of Alshrafi's images, of footballers on a pitch ringed by rubble, had been pulled from a sports photo festival in Deauville in August before a court ordered it back on display (AFP, 11 Oct).\n\nAnother Gaza photographer, Saher Alghorra, won last year's Bayeux photo prize and a 2026 Pulitzer for breaking news photography (The New Arab, May).",
+   "people": [
+    "Mahmoud Abu Hamda",
+    "Jehad Alshrafi",
+    "Anas Baba",
+    "Lyse Doucet",
+    "Saher Alghorra"
+   ],
+   "source": "Prix Bayeux Calvados-Normandie",
+   "via": "AFP (Arab News)",
+   "url": "https://www.arabnews.com/media/palestinian-mahmoud-abu-hamda-wins-top-photography-prize-at-bayeux-3005693",
+   "more_urls": [
+    "https://www.manilatimes.net/2026/10/11/world/americas-emea/palestinian-mahmoud-abu-hamda-wins-top-photography-prize-at-bayeux/2443207",
+    "https://www.prixbayeux.org/en/",
+    "https://www.newarab.com/news/palestinian-photographer-saher-alghorra-wins-2026-pulitzer-prize"
+   ],
+   "reading": "4",
+   "reading_unit": "Prix Bayeux awards for reporting from Gaza",
+   "reading_note": "Photo trophy and public's choice (Abu Hamda), young reporter (Alshrafi) and radio (Anas Baba), 10 Oct 2026 (AFP).",
+   "background": false,
+   "area": "global",
+   "byline": "Prix Bayeux Calvados-Normandie, via AFP (Arab News) · 10 Oct 2026",
+   "outlet": "AFP (Arab News)",
+   "photo": {
+    "slug": "prix-bayeux-gaza-photographers",
+    "alt": "The Reporters' Memorial in Bayeux, the town that hosts the war-correspondents' prize (January 2015)",
+    "caption": "The Reporters' Memorial in Bayeux, the town that hosts the war-correspondents' prize (January 2015). Photo: Romain Bréget / Wikimedia Commons, CC BY-SA 4.0.",
+    "kind": "subject"
+   }
+  },
+  {
+   "id": "deir-samit-arrest-october-7-anniversary-post",
+   "desk": "speech",
+   "status": "incident",
+   "date": "2026-10-09",
+   "published": "2026-10-09",
+   "place": "Deir Samit, west of Hebron",
+   "headline": "Man from Deir Samit arrested over video posted on the third anniversary of 7 October",
+   "summary": "Israeli police arrested a man in his twenties from Deir Samit, near Hebron, on suspicion of incitement after he posted a video marking the 7 October attack on its third anniversary. Police say a unit that monitors social media found the post.",
+   "body": "Israeli police said a Palestinian man in his twenties from Deir Samit was arrested on Friday 9 October on suspicion of incitement to terrorism and praising the 7 October 2023 attack (JFeed, 9 Oct; Israel National News, 9 Oct).\n\nAccording to the police account, a video celebrating the attack was posted on the morning of 7 October 2026 and was found by a police coordinator whose job is to identify \"inciters\" online. The two outlets quote different captions for the video. Police described the man as linked to Hamas; no evidence for that was published (JFeed, 9 Oct; INN, 9 Oct).\n\nThe arrest was carried out by Judea and Samaria District police with the army's Judea Brigade, and the man was taken to the Hebron police station for interrogation and held (JFeed, 9 Oct).\n\nThe case shows how the anniversary date itself was watched: an army unit set up after October 2023 to pursue online incitement in the West Bank works with police on such arrests (JNS, 7 Jul, on two earlier arrests in al-Majd and ad-Dhahiriya).",
+   "people": [
+    "unnamed man in his 20s from Deir Samit"
+   ],
+   "source": "Israel Police",
+   "via": "JFeed; Israel National News",
+   "url": "https://www.israelnationalnews.com/news/434347",
+   "more_urls": [
+    "https://www.jfeed.com/news-israel/tmmxb4",
+    "https://www.jns.org/news/israel-news/israeli-forces-arrest-two-palestinians-over-online-incitement-praise-for-oct-7"
+   ],
+   "reading": "",
+   "reading_unit": "",
+   "reading_note": "",
+   "background": false,
+   "area": "west-bank",
+   "byline": "Israel Police, via JFeed; Israel National News · 9 Oct 2026",
+   "outlet": "JFeed; Israel National News",
+   "photo": {
+    "slug": "deir-samit-arrest-october-7-anniversary-post",
+    "alt": "The main road and mosque in Deir Samit, west of Hebron (August 2020)",
+    "caption": "The main road and mosque in Deir Samit, west of Hebron (August 2020). Photo: M sh شراونة محمد (Commons user) / Wikimedia Commons, CC BY-SA 4.0.",
+    "kind": "place"
+   }
+  },
+  {
+   "id": "gaza-classroom-ai-speech-monitoring",
+   "desk": "speech",
+   "status": "open",
+   "date": "2026-10-09",
+   "published": "2026-10-09",
+   "place": "Gaza Strip (Academies of Hope schools)",
+   "headline": "US charity plans AI that listens to Gaza classrooms for \"hateful\" speech",
+   "summary": "A US charity running schools in Gaza plans to record lessons and use AI to flag speech it considers hateful, antisemitic or inciting. Its own board member and a partner aid group raised objections, and it is not clear whether teachers, pupils or families will be told.",
+   "body": "Gaza Children Village, a US charity that runs the Academies of Hope schools in Gaza, plans to record classroom conversations and run them through an AI system that flags \"antisemitic\", \"inciting\" or \"hateful\" language, the Associated Press reported (AP, 9 Oct).\n\nFounder David Hasan, a neurosurgeon who teaches at Duke University's medical school, outlined the plan in a webinar; alerts would go to him and he would contact teachers. He declined to comment to AP. Lessons are largely based on the Palestinian Authority curriculum with some content removed (AP, 9 Oct).\n\nBoard member Bishara Bahbah said the plan had not been raised with the board, and an official at a partner aid group warned it could open a \"Pandora's box\" and lead them to reconsider the partnership. It is unclear when it would start, what words would be flagged and whether families would be informed (AP, 9 Oct; 7amleh, 16 Oct).\n\nThe digital rights group 7amleh listed the plan among the week's threats to Palestinian expression (7amleh, 16 Oct).",
+   "people": [
+    "David Hasan",
+    "Bishara Bahbah"
+   ],
+   "source": "Associated Press",
+   "via": "AP (ABC News syndication)",
+   "url": "https://abcnews.com/Technology/wireStory/us-charity-plans-ai-monitor-gaza-classrooms-hateful-137119695",
+   "more_urls": [
+    "https://www.timesofisrael.com/a-us-charity-plans-to-use-ai-to-monitor-its-gaza-classrooms-for-hateful-speech/",
+    "https://7amleh.org/post/digital-rights-weekly-update-15-10-en"
+   ],
+   "reading": "72",
+   "reading_unit": "hours classroom recordings would be kept",
+   "reading_note": "Retention period described in AP's 9 Oct 2026 report as summarised by 7amleh (16 Oct).",
+   "background": false,
+   "area": "gaza",
+   "byline": "Associated Press, via AP (ABC News syndication) · 9 Oct 2026",
+   "outlet": "AP (ABC News syndication)"
+  },
+  {
+   "id": "un-rapporteur-mediacide-platforms",
+   "desk": "platforms",
+   "status": "pattern",
+   "date": "2026-10-09",
+   "published": "2026-10-09",
+   "place": "UN General Assembly (A/81/249)",
+   "headline": "UN rapporteur says platforms act as gatekeepers that bury Palestinian voices",
+   "summary": "Francesca Albanese's report to the General Assembly, \"Truth under the rubble\", says Meta, X and Google decide which Palestinian narratives are seen. It cites near-total compliance with Israeli takedown requests and argues those requests work as removal orders without legal process.",
+   "body": "The report by UN Special Rapporteur Francesca Albanese, \"Truth under the rubble: media in the time of genocide\" (A/81/249), devotes a section to digital platforms, calling Meta, X and Alphabet the main gatekeepers of information on Palestine (A/81/249, paras 78–79).\n\nIt cites leaked Meta data showing about 38.8 million Facebook and Instagram posts removed, banned or suppressed since late 2023, a 77% fall in engagement with leading Palestinian news outlets, and compliance with Israeli takedown requests of 99.2% at TikTok and 94% at Meta. Albanese argues that such requests, though formally voluntary, act as removal orders that bypass the law (A/81/249, para 81).\n\nThe report also faults platforms for leaving up hate speech and degrading content by soldiers, and says they earned roughly $50 million from Israeli government ad contracts, including with Google and X; Google reportedly decided ads denying famine in Gaza broke no rules (A/81/249, paras 82–85). It notes the Al Jazeera law and Israel's February 2026 ban on five Jerusalem outlets (para 46).\n\nUN Watch, a critic of Albanese, said the report jumps from accepting advertising to criminal complicity without showing a link (UN Watch, 12 Oct).",
+   "people": [
+    "Francesca Albanese"
+   ],
+   "source": "UN Special Rapporteur on the occupied Palestinian territory",
+   "via": "United Nations (A/81/249)",
+   "url": "https://undocs.org/en/A/81/249",
+   "more_urls": [
+    "https://www.ohchr.org/en/documents/country-reports/a81249-report-special-rapporteur-situation-human-rights-palestinian",
+    "https://www.un.org/unispal/document/truth-under-the-rubble-francesca-albane-report-21jul26/",
+    "https://unwatch.org/legal-analysis-of-francesca-albaneses-october-2026-report/",
+    "https://7amleh.org/post/digital-rights-weekly-update-15-10-en"
+   ],
+   "reading": "38.8m",
+   "reading_unit": "Facebook and Instagram posts removed, banned or suppressed since late 2023",
+   "reading_note": "Figure from leaked Meta data cited in the Special Rapporteur's report A/81/249 (dated 21 Jul 2026, published Oct 2026).",
+   "background": false,
+   "area": "global",
+   "byline": "UN Special Rapporteur on the occupied Palestinian territory, via United Nations (A/81/249) · 9 Oct 2026",
+   "outlet": "United Nations (A/81/249)",
+   "photo": {
+    "slug": "un-rapporteur-mediacide-platforms",
+    "alt": "Francesca Albanese at a public event in Naples on 10 October 2026",
+    "caption": "Francesca Albanese at a public event in Naples on 10 October 2026. Photo: Lucia Montanaro (LuciaMontanaroPhoto) / Wikimedia Commons, CC BY-SA 4.0.",
+    "kind": "subject"
+   }
+  },
+  {
+   "id": "anas-al-sharif-instagram-archive-shut",
+   "desk": "platforms",
+   "status": "open",
+   "date": "2026-10-09",
+   "published": "2026-10-11",
+   "place": "Instagram (account of Gaza journalist)",
+   "headline": "Instagram shuts the account holding killed journalist Anas al-Sharif's war archive",
+   "summary": "The Instagram account of Anas al-Sharif, the Al Jazeera correspondent killed in Gaza in August 2025, has been shut down, a statement on his X account said on 9 October. The account held his archive of war reporting; Meta has given no public reason.",
+   "body": "A statement posted on Friday 9 October to Anas al-Sharif's X account said the team was saddened to find his Instagram account closed, asked anyone with contacts at Meta to help restore it and pointed followers to a backup account (Roya News, 9 Oct; Siasat Daily, 11 Oct).\n\nThe account held al-Sharif's record of the war in northern Gaza. He was killed on 10 August 2025 when an Israeli strike hit a journalists' tent near al-Shifa Hospital (7amleh, 16 Oct).\n\nThe statement did not say whether Meta had explained the closure, and Meta had not commented publicly (Siasat Daily, 11 Oct). 7amleh flagged the case in its weekly digital rights update (7amleh, 16 Oct).\n\nThe closure fits 7amleh's quarterly data, in which account suspension is the most common enforcement action against Palestinian users (7amleh, 1 Oct).",
+   "people": [
+    "Anas al-Sharif"
+   ],
+   "source": "Statement on Anas al-Sharif's X account",
+   "via": "Siasat Daily; Roya News",
+   "url": "https://www.siasat.com/meta-closes-gaza-journalist-anas-al-sharifs-instagram-account-3555896/",
+   "more_urls": [
+    "https://en.royanews.tv/news/74733/Meta-reportedly-shuts-down-Palestinian-journalist-Anas-Al-Sharif%E2%80%99s-Instagram-account",
+    "https://7amleh.org/post/digital-rights-weekly-update-15-10-en"
+   ],
+   "reading": "",
+   "reading_unit": "",
+   "reading_note": "",
+   "background": false,
+   "area": "gaza",
+   "byline": "Statement on Anas al-Sharif's X account, via Siasat Daily; Roya News · 9 Oct 2026",
+   "outlet": "Siasat Daily; Roya News",
+   "photo": {
+    "slug": "anas-al-sharif-instagram-archive-shut",
+    "alt": "Marchers in Madrid carry hand-painted portraits of killed journalists Anas al-Sharif, Khaled El-Shawa and Saleh al-Jafarawi (17 May 2026)",
+    "caption": "Marchers in Madrid carry hand-painted portraits of killed journalists Anas al-Sharif, Khaled El-Shawa and Saleh al-Jafarawi (17 May 2026). Photo: Barcex / Wikimedia Commons, CC BY-SA 4.0.",
+    "kind": "subject"
+   }
+  },
+  {
+   "id": "pjs-september-report",
+   "desk": "press",
+   "status": "pattern",
+   "date": "2026-10-08",
+   "published": "2026-10-08",
+   "place": "Ramallah (Palestinian Journalists Syndicate)",
+   "headline": "Syndicate logs 50 violations against journalists in September, many of them arrests",
+   "summary": "The Palestinian Journalists Syndicate recorded 50 Israeli violations against journalists in September: 22 cases of detention or being stopped from working, 11 court appearances and nine arrests. Several journalists were moved into administrative detention without charge.",
+   "body": "The syndicate's Freedoms Committee counted 50 violations in September: nine arrests, 22 cases of detention or being prevented from working, 11 court appearances, two confiscations, two summonses for interrogation, two threats at gunpoint, one bloody injury and one case of smashed equipment (PJS report via WAFA, 8 Oct).\n\nArrests dominated the month. Photographer Muath Amarneh, journalist Sabri Jibril and journalist Alaa al-Rimawi were each put in administrative detention for four months; writer Rasem Obeidat of Jabal al-Mukabber got six months; and Mohammed Mona's administrative detention was renewed for six months on 24 September, the third renewal in a row (PJS via WAFA).\n\nA military court sentenced journalist Mahmoud Fatafta to four years for incitement on 8 September; he has been held since 30 May 2024 (PJS via WAFA). Rami Nofal of Voice of Palestine radio was arrested at home in Idhna and released the next day after being beaten and interrogated (PJS via WAFA).\n\nThe report also lists settlers smashing the car of Jordan TV reporter Rajai al-Khatib near al-Mughayyir on 2 September, soldiers pointing guns at an Al-Araby TV crew in Beitunia on 29 September, and police barring Jerusalem journalist Salwa Abu Libdeh from Al-Aqsa for six months after questioning her over posts (PJS via WAFA).",
+   "people": [
+    "Muath Amarneh",
+    "Sabri Jibril",
+    "Alaa al-Rimawi",
+    "Rasem Obeidat",
+    "Mohammed Mona",
+    "Mahmoud Fatafta",
+    "Rami Nofal",
+    "Sameh Nazih Darwaza",
+    "Shadi Hatem",
+    "Rajai al-Khatib",
+    "Amid Shehadeh",
+    "Rabie al-Munir",
+    "Salwa Abu Libdeh",
+    "Naqaa Hamed"
+   ],
+   "source": "Palestinian Journalists Syndicate (Freedoms Committee)",
+   "via": "WAFA",
+   "url": "https://www.wafa.ps/news/2026/10/8/50-%D8%A7%D9%86%D8%AA%D9%87%D8%A7%D9%83%D8%A7-%D8%A8%D8%AD%D9%82-%D8%A7%D9%84%D8%B5%D8%AD%D9%81%D9%8A%D9%8A%D9%86-%D9%88%D8%A7%D9%84%D8%B7%D9%88%D8%A7%D9%82%D9%85-%D8%A7%D9%84%D8%A5%D8%B9%D9%84%D8%A7%D9%85%D9%8A%D8%A9",
+   "more_urls": [
+    "https://www.raya.ps/news/1226524.html",
+    "https://msdrnews.com/127650/",
+    "https://www.sadanews.ps/news/341176.html"
+   ],
+   "reading": "50",
+   "reading_unit": "violations against journalists in September 2026",
+   "reading_note": "PJS Freedoms Committee, report of 8 Oct 2026: 50 violations in September, down from 84 in August and 108 in July.",
+   "background": false,
+   "area": "west-bank",
+   "byline": "Palestinian Journalists Syndicate (Freedoms Committee), via WAFA · 8 Oct 2026",
+   "outlet": "WAFA"
+  },
+  {
+   "id": "ribeiro-deported-rantis",
+   "desk": "press",
+   "status": "resolved",
+   "date": "2026-10-08",
+   "published": "2026-10-12",
+   "place": "Rantis, north-west of Ramallah",
+   "headline": "Portuguese journalist arrested at West Bank olive harvest and deported the next day",
+   "summary": "Israeli forces arrested Ricardo Esteves Ribeiro of the Portuguese outlet Fumaça in Rantis on 8 October and deported him on 9 October. He told CPJ he was threatened and blindfolded at a military base after showing his press card.",
+   "body": "Ricardo Esteves Ribeiro, a correspondent and co-founder of the independent Portuguese outlet Fumaça, was arrested in Rantis, north-west of Ramallah, on 8 October and deported the following day (CPJ, 13 Oct).\n\nHe told CPJ he showed his press credentials but was taken to a military base, threatened with violence and blindfolded (CPJ). Portugal's foreign ministry confirmed that two Portuguese nationals, one of them a journalist, had been detained in the Rantis area, and Ribeiro said both were back in Portugal by Saturday (DNoticias, 12 Oct).\n\nRibeiro said he had been with about 30 people taking part in an annual olive-harvest solidarity initiative, and described his removal as part of a wider policy against Palestinians in the West Bank; that is his characterisation (DNoticias; CPJ).",
+   "people": [
+    "Ricardo Esteves Ribeiro"
+   ],
+   "source": "CPJ; Portuguese Ministry of Foreign Affairs",
+   "via": "DNoticias (Lusa)",
+   "url": "https://cpj.org/2026/10/cpj-demands-israel-halt-escalating-violations-against-journalists/",
+   "more_urls": [
+    "https://www.dnoticias.pt/2026/10/12/508758-portugues-que-esteve-detido-na-cisjordania-ve-nisso-mais-um-gesto-opressivo-de-israel/"
+   ],
+   "reading": "",
+   "reading_unit": "",
+   "reading_note": "",
+   "background": false,
+   "area": "west-bank",
+   "byline": "CPJ; Portuguese Ministry of Foreign Affairs, via DNoticias (Lusa) · 8 Oct 2026",
+   "outlet": "CPJ; DNoticias (Lusa)",
+   "photo": {
+    "slug": "ribeiro-deported-rantis",
+    "alt": "The village of Rantis, north-west of Ramallah, in January 2016",
+    "caption": "The village of Rantis, north-west of Ramallah, in January 2016. Photo: יעקב (Commons user) / Wikimedia Commons, CC BY-SA 4.0.",
+    "kind": "place"
+   }
+  },
+  {
+   "id": "rsf-bayeux-memorial-2026",
+   "desk": "press",
+   "status": "pattern",
+   "date": "2026-10-08",
+   "published": "2026-10-08",
+   "place": "Bayeux, Normandy, France",
+   "headline": "Bayeux memorial adds 56 names of killed journalists, with a tribute to Gaza's reporters",
+   "summary": "Reporters Without Borders unveiled the 2026 stele at the Bayeux Reporters Memorial on 8 October, naming 56 journalists killed doing their work over the past year, with a special tribute to Palestinian journalists killed in Gaza.",
+   "body": "RSF director-general Thibaut Bruttin unveiled the 2026 stele at the Bayeux Reporters Memorial in Normandy on Thursday 8 October, during the Bayeux Calvados-Normandy prize for war correspondents (RSF, 8 Oct).\n\nThe stele names 56 journalists killed in the course of their work in the past year, from Palestine, Lebanon, Ukraine, Colombia, Mexico and other countries (RSF).\n\nRSF said the ceremony paid particular tribute to Palestinian journalists killed in Gaza (RSF, 8 Oct).",
+   "people": [
+    "Thibaut Bruttin"
+   ],
+   "source": "Reporters Without Borders (RSF)",
+   "via": "RSF",
+   "url": "https://rsf.org/en/2026-bayeux-war-reporters-memorial-rsf-pays-tribute-slain-journalists",
+   "more_urls": [
+    "https://rsf.org/fr/st%C3%A8le-2026-au-m%C3%A9morial-des-reporters-%C3%A0-bayeux-rsf-rend-hommage-aux-journalistes-tu%C3%A9s",
+    "https://www.prixbayeux.org/en/programme/reporters-memorial-7/"
+   ],
+   "reading": "56",
+   "reading_unit": "journalists killed in the past year named on the 2026 stele",
+   "reading_note": "RSF, 8 Oct 2026: 56 names added at the Bayeux Reporters Memorial.",
+   "background": false,
+   "area": "global",
+   "byline": "Reporters Without Borders (RSF), via RSF · 8 Oct 2026",
+   "outlet": "RSF"
+  },
+  {
+   "id": "bisan-owda-three-years-video",
+   "desk": "creators",
+   "status": "recognised",
+   "date": "2026-10-08",
+   "published": "2026-10-08",
+   "place": "Gaza",
+   "headline": "Bisan Owda marks three years of filming Gaza, months after a brief TikTok ban",
+   "summary": "Gaza journalist and filmmaker Bisan Owda published a video essay on Mondoweiss marking three years of war, describing a population stuck in 2023 and denied time to grieve. In January her 1.4m-follower TikTok account was banned and restored a day later.",
+   "body": "In a first-person video published on 8 October, Bisan Owda says time has stopped for people in Gaza, who feel stuck in 2023 while the world moves on, and that new losses arrive before old ones can be mourned. She describes her work as documenting the truth and amplifying people who lost everything (Mondoweiss, 8 Oct).\n\nOwda began documenting the war on social media in 2023 and has since won a Peabody, a News and Documentary Emmy and an Edward R. Murrow award (Mondoweiss, 8 Oct).\n\nIn late January she said TikTok had permanently banned her account days after the app's US ownership deal closed; it was back a day later. TikTok said it had been temporarily restricted in September 2025 over a possible impersonation risk, but many of her videos remained \"ineligible for recommendation\" and her account was hard to find by search (Al Jazeera, 29–30 Jan; Business & Human Rights Centre).",
+   "people": [
+    "Bisan Owda"
+   ],
+   "source": "Bisan Owda",
+   "via": "Mondoweiss",
+   "url": "https://mondoweiss.net/2026/10/video-im-bisan-and-im-still-surviving-the-genocide/",
+   "more_urls": [
+    "https://www.aljazeera.com/news/2026/1/29/palestinian-journalist-bisan-owda-with-1-4m-followers-reports-tiktok-ban",
+    "https://www.aljazeera.com/news/2026/1/30/gaza-based-journalist-bisan-owda-regains-tiktok-account-after-outcry",
+    "https://www.business-humanrights.org/en/latest-news/israelopt-palestinian-journalist-regains-tiktok-account-following-outcry-over-ban-but-faces-restrictions-to-sharing-content-visibility/",
+    "https://www.newarab.com/news/tiktok-bans-gaza-journalist-bisan-owdas-account"
+   ],
+   "reading": "1.4m",
+   "reading_unit": "TikTok followers when her account was briefly banned",
+   "reading_note": "Follower count at the time of the January 2026 ban and next-day restoration (Al Jazeera, 30 Jan 2026, via Business & Human Rights Centre).",
+   "background": false,
+   "area": "gaza",
+   "byline": "Bisan Owda, via Mondoweiss · 8 Oct 2026",
+   "outlet": "Mondoweiss",
+   "photo": {
+    "slug": "bisan-owda-three-years-video",
+    "alt": "Bisan Owda reporting from a displacement camp in al-Mawasi for Save the Children (video frame, January 2024)",
+    "caption": "Bisan Owda reporting from a displacement camp in al-Mawasi for Save the Children (video frame, January 2024). Photo: Bisan Owda / Save the Children / Wikimedia Commons, CC BY 3.0.",
+    "kind": "subject"
+   }
+  },
+  {
+   "id": "gmo-count-263-anadolu",
+   "desk": "press",
+   "status": "pattern",
+   "date": "2026-10-07",
+   "published": "2026-10-07",
+   "place": "Gaza Strip",
+   "headline": "Three years on, Gaza's media office counts 263 journalists killed and 23 still detained",
+   "summary": "Marking three years of war, Gaza's Government Media Office told Anadolu that 263 journalists and media workers have been killed, 50 detained with 23 still held, and three are missing. The toll rose from 254 to 263 after the October 2025 ceasefire.",
+   "body": "Ismail al-Thawabta, director of Gaza's Government Media Office, told Anadolu that Israeli forces have killed 263 journalists and media workers since October 2023 (Anadolu via Yeni Safak, 7 Oct).\n\nHe said 50 journalists had been detained, 23 of whom are still in prison, and that three remain missing: Nidal Suheil al-Wahidi, Haitham Jamal Abdul Wahid and Ahmad Issam al-Agha (Anadolu, 7 Oct). The Palestinian Journalists Syndicate put the number wounded at nearly 500 and said 27 of the dead were women (PJS via Anadolu).\n\nThe office said attacks destroyed more than 80% of Gaza's media offices, including 16 satellite TV offices, 11 radio stations and 23 digital outlets, with losses of about US$1 billion; Gaza had about 1,200 media workers before the war (Anadolu, 7 Oct).\n\nNine of the 263 deaths came after the ceasefire of 10 October 2025, when the count stood at 254 (Anadolu). The office's figures are its own; CPJ counted 189 Palestinian journalists and media workers killed in Gaza by late September (CPJ, 25 Sep).",
+   "people": [
+    "Ismail al-Thawabta",
+    "Nidal Suheil al-Wahidi",
+    "Haitham Jamal Abdul Wahid",
+    "Ahmad Issam al-Agha"
+   ],
+   "source": "Gaza Government Media Office; Palestinian Journalists Syndicate",
+   "via": "Anadolu (republished by Yeni Safak)",
+   "url": "https://en.yenisafak.com/world/palestinian-authorities-say-263-journalists-killed-in-gaza-war-3724226",
+   "more_urls": [
+    "https://cpj.org/2026/09/cpj-urges-us-senators-to-seek-accountability-for-israels-killing-of-journalist-shireen-abu-akleh/"
+   ],
+   "reading": "263",
+   "reading_unit": "journalists and media workers killed since Oct 2023 (Gaza Government Media Office)",
+   "reading_note": "Gaza Government Media Office director Ismail al-Thawabta to Anadolu, 7 Oct 2026; nine of the 263 were killed after the 10 Oct 2025 ceasefire.",
+   "background": false,
+   "area": "gaza",
+   "byline": "Gaza Government Media Office; Palestinian Journalists Syndicate, via Anadolu (republished by Yeni Safak) · 7 Oct 2026",
+   "outlet": "Anadolu (republished by Yeni Safak)",
+   "photo": {
+    "slug": "gmo-count-263-anadolu",
+    "alt": "Marchers in Madrid carry painted portraits of killed Palestinian journalists Khaled El-Shawa, Anas Al-Sharif, Saleh Al-Jafarawi and Shireen Abu Akleh, 17 May 2026",
+    "caption": "Marchers in Madrid carry painted portraits of killed Palestinian journalists Khaled El-Shawa, Anas Al-Sharif, Saleh Al-Jafarawi and Shireen Abu Akleh, 17 May 2026. Photo: Barcex / Wikimedia Commons, CC BY-SA 4.0.",
+    "kind": "subject"
+   }
+  },
+  {
+   "id": "doha-film-festival-palestinian-competition",
+   "desk": "creators",
+   "status": "recognised",
+   "date": "2026-10-07",
+   "published": "2026-10-12",
+   "place": "Doha, Qatar",
+   "headline": "Four Palestinian films make Doha Film Festival's 15-title competition",
+   "summary": "The Doha Film Festival, running 19–27 November, has picked four Palestinian films for its international feature competition, including Thirteen in Gaza and Muayad Alayan's Conversation With the Sea. Concrete Land, about a Palestinian Bedouin family in Amman, also competes.",
+   "body": "The Doha Film Institute named 15 films from four continents for the festival's international feature competition, which runs 19–27 November (Türkiye Today, 12 Oct; Gulf Times, 7 Oct).\n\nThe Palestinian titles are Hosam Abu Dan's Thirteen in Gaza, shot in Gaza; Rabab Khamis's documentary Sama, about a 10-year-old girl in Deir al-Balah who collects plastic and cardboard to sell as fuel, which will have its world premiere there; Muayad Alayan's Conversation With the Sea, set in Jerusalem; and Mohanad Yaqubi's Revolutionaries Never Die, built from 113 film reels kept by Lebanese director Jocelyne Saab, which won a special jury prize at Locarno (Türkiye Today, 12 Oct).\n\nAsmahan Bkerat's Concrete Land is also in the line-up (Türkiye Today, 12 Oct).\n\nFestival director Fatma Hassan Al Remaihi said the event backs filmmakers who challenge established narratives (Türkiye Today, 12 Oct).",
+   "people": [
+    "Hosam Abu Dan",
+    "Rabab Khamis",
+    "Muayad Alayan",
+    "Mohanad Yaqubi",
+    "Fatma Hassan Al Remaihi"
+   ],
+   "source": "Doha Film Institute",
+   "via": "Türkiye Today; Gulf Times",
+   "url": "https://www.turkiyetoday.com/culture/doha-film-festival-announces-15-competing-films-with-palestinian-stories-taking-cente-3230145",
+   "more_urls": [
+    "https://www.gulf-times.com/article/735177/qatar/15-films-from-four-continents-set-for-dffs-2026-international-feature-competition",
+    "https://www.screendaily.com/news/doha-film-festivals-international-feature-competition-includes-four-palestinian-films/5221164.article",
+    "https://deadline.com/2026/10/doha-film-festival-2026-international-feature-competition-1237149486/"
+   ],
+   "reading": "4",
+   "reading_unit": "Palestinian films among 15 in the international feature competition",
+   "reading_note": "Line-up announced around 7 Oct 2026 for the festival on 19–27 Nov (Gulf Times; Türkiye Today, 12 Oct).",
+   "background": false,
+   "area": "global",
+   "byline": "Doha Film Institute, via Türkiye Today; Gulf Times · 7 Oct 2026",
+   "outlet": "Türkiye Today; Gulf Times"
+  },
+  {
+   "id": "ashtiyeh-beaten-aqraba",
+   "desk": "press",
+   "status": "incident",
+   "date": "2026-10-06",
+   "published": "2026-10-06",
+   "place": "Near Aqraba, south-east of Nablus",
+   "headline": "Armed settlers beat AFP photographer Jaafar Ashtiyeh at the olive harvest near Aqraba",
+   "summary": "Settlers beat veteran AFP photographer Jaafar Ashtiyeh, 58, with rifle butts while he covered attacks on olive pickers near Aqraba, and took his camera gear. A colleague was threatened at gunpoint while soldiers nearby did not step in, AFP said.",
+   "body": "On 6 October AFP photographers Jaafar Ashtiyeh and John Wessels were covering the olive harvest near Aqraba, south-east of Nablus, when a man on a quad bike opened fire and at least six armed men rushed towards them (AFP via Arab News, 6 Oct).\n\nTwo of the men caught Ashtiyeh as he tried to get into a car marked as press and beat him repeatedly with their guns; the attackers took his camera equipment and Wessels was threatened at gunpoint (AFP, 6 Oct). A Palestinian man was shot in the foot, according to the Palestine Red Crescent (AFP).\n\nAshtiyeh was taken by ambulance to hospital in Nablus with bruises to the head and torso; X-rays found no fractures (AFP; Al Jazeera Arabic, 7 Oct). Wessels said at least a dozen Israeli soldiers were about 500 metres away and did not intervene; AFP's global news director Phil Chetwynd demanded a full investigation (AFP).\n\nThe Palestinian Journalists Syndicate said settlers beat Ashtiyeh badly, smashed and seized his equipment, and called for international protection for journalists in the field (PJS statement, 6 Oct). The Foreign Press Association asked why soldiers did not act (Al Jazeera Arabic, 7 Oct), and CPJ listed the attack in its 13 October alert (CPJ, 13 Oct).",
+   "people": [
+    "Jaafar Ashtiyeh",
+    "John Wessels",
+    "Phil Chetwynd"
+   ],
+   "source": "AFP; Palestinian Journalists Syndicate",
+   "via": "Arab News (AFP); Al-Hadaf; Al Jazeera Arabic",
+   "url": "https://www.arabnews.com/media/israeli-settlers-beat-afp-photographer-covering-west-bank-3004909",
+   "more_urls": [
+    "https://hadfnews.ps/post/140832",
+    "https://alfajertv.com/news/palnews/744009.html",
+    "https://www.ajnet.me/news/2026/10/7/طاردوه-وضربوه-بأعقاب-البنادق-قصة",
+    "https://cpj.org/2026/10/cpj-demands-israel-halt-escalating-violations-against-journalists/",
+    "https://al-monitor.com/originals/2026/10/israeli-settlers-beat-afp-photographer-covering-west-bank"
+   ],
+   "reading": "",
+   "reading_unit": "",
+   "reading_note": "",
+   "background": false,
+   "area": "west-bank",
+   "byline": "AFP; Palestinian Journalists Syndicate, via Arab News (AFP); Al-Hadaf; Al Jazeera Arabic · 6 Oct 2026",
+   "outlet": "Arab News (AFP); Al-Hadaf; Al Jazeera Arabic",
+   "photo": {
+    "slug": "ashtiyeh-beaten-aqraba",
+    "alt": "Aqraba seen from the south in October 2026, the week after the attack nearby",
+    "caption": "Aqraba seen from the south in October 2026, the week after the attack nearby. Photo: יורם שורק (Yoram Sorek) / Wikimedia Commons, CC0.",
+    "kind": "place"
+   }
+  },
+  {
+   "id": "atiq-abed-detained-anza",
+   "desk": "press",
+   "status": "incident",
+   "date": "2026-10-06",
+   "published": "2026-10-06",
+   "place": "Anza, south of Jenin",
+   "headline": "Israeli forces detain two journalists filming olive-tree uprooting near Jenin",
+   "summary": "Israeli forces detained journalists Mohammed Atiq and Mohammed Abed while they filmed preparations to uproot olive trees in Anza, south of Jenin, and took them away with a group of olive pickers. The syndicate and CPJ both recorded the case.",
+   "body": "On the same day settlers beat AFP's Jaafar Ashtiyeh, Israeli forces detained journalists Mohammed Atiq and Mohammed Abed in the lands of Anza, south of Jenin, as they covered preparations to uproot olive trees (PJS statement, 6 Oct).\n\nThe syndicate said the two were taken to an unknown location together with a group of olive pickers, and called it part of a systematic policy against journalists in the northern West Bank (PJS, 6 Oct).\n\nCPJ included the detentions in its 13 October alert on rising violations against the press (CPJ, 13 Oct). We found no report of when, or whether, the two were released.",
+   "people": [
+    "Mohammed Atiq",
+    "Mohammed Abed"
+   ],
+   "source": "Palestinian Journalists Syndicate; CPJ",
+   "via": "Al-Hadaf; Al-Fajr TV",
+   "url": "https://hadfnews.ps/post/140832",
+   "more_urls": [
+    "https://alfajertv.com/news/palnews/744009.html",
+    "https://cpj.org/2026/10/cpj-demands-israel-halt-escalating-violations-against-journalists/"
+   ],
+   "reading": "",
+   "reading_unit": "",
+   "reading_note": "",
+   "background": false,
+   "area": "west-bank",
+   "byline": "Palestinian Journalists Syndicate; CPJ, via Al-Hadaf; Al-Fajr TV · 6 Oct 2026",
+   "outlet": "Al-Hadaf; Al-Fajr TV; CPJ",
+   "photo": {
+    "slug": "atiq-abed-detained-anza",
+    "alt": "The village of Anza, south of Jenin, in April 2011",
+    "caption": "The village of Anza, south of Jenin, in April 2011. Photo: Mujaddara / Wikimedia Commons, CC BY-SA 3.0.",
+    "kind": "place"
+   }
+  },
+  {
+   "id": "pps-incitement-surveillance-al-eizariya-principal",
+   "desk": "speech",
+   "status": "pattern",
+   "date": "2026-10-05",
+   "published": "2026-10-05",
+   "place": "Al-Eizariya (Jerusalem governorate) and Birzeit",
+   "headline": "Prisoners' group says Israel now uses \"incitement\" to police posts, classrooms and posters",
+   "summary": "The Palestinian Prisoners' Society says Israel has turned the \"incitement\" charge from a case-by-case accusation into a standing system of surveillance over what Palestinians post, teach and display. It points to the arrest of a school principal in al-Eizariya, whose school posters and lessons were presented as evidence.",
+   "body": "The Palestinian Prisoners' Society (PPS) said Israeli authorities are widening the meaning of \"incitement\" so far that its limits are unclear and can shift at will, creating a lasting climate of surveillance and fear in which people and institutions censor themselves (PPS via WAFA, 5 Oct).\n\nPPS said those targeted include ordinary citizens, released prisoners, students, women and children, many of them over social-media posts or opinions on current events, and that schools, universities, cultural and media bodies are also in the frame. It described a combined system of threats, interrogation, assault, sanctions and fines alongside arrest (WAFA, 5 Oct).\n\nIts main example was the arrest of a school principal in al-Eizariya. Israeli outlets citing police said officers from the Ma'ale Adumim station and Border Police raided the school overnight, found a display with a map marking \"occupied zones\" and photos including Yahya Sinwar and Yasser Arafat, and detained the principal, a woman in her fifties, who was then remanded in custody (World Israel News/JFeed, 4 Oct). PPS said a video released afterwards presented the posters and the curriculum as proof of \"terrorist education\" (WAFA, 5 Oct).\n\nPPS linked the case to the demolition the same day of the martyrs' memorial at Birzeit University (WAFA, 5 Oct). Al Jazeera reported that troops bulldozed the stone pillar and removed its marble in the fifth incursion on campus this year (Al Jazeera, 6 Oct); Ynet reported that the monument also listed Islamic Jihad and Hamas leaders such as Fathi Shaqaqi and Yahya Ayyash (Ynet).",
+   "people": [
+    "unnamed al-Eizariya school principal"
+   ],
+   "source": "Palestinian Prisoners' Society; Israel Police (via Israeli outlets)",
+   "via": "WAFA",
+   "url": "https://english.wafa.ps/Pages/Details/175493",
+   "more_urls": [
+    "https://worldisraelnews.com/palestinian-principal-arrested-for-glorifying-terrorism/",
+    "https://www.jfeed.com/news-israel/tmdvgk",
+    "https://alethonews.com/2026/10/06/israel-expands-incitement-charge-to-target-palestinian-education-and-memory/",
+    "https://aljazeera.com/features/2026/10/6/birzeit-university-memorial-destruction-aims-to-crush-palestinian-memory",
+    "https://www.ynetnews.com/article/bl2tb85ym",
+    "https://anews.com.tr/middle-east/2026/10/05/israeli-forces-demolish-memorial-at-birzeit-university-arrest-10-palestinians-in-west-bank-raids"
+   ],
+   "reading": "",
+   "reading_unit": "",
+   "reading_note": "The Prisoners' Society says incitement arrests have risen sharply since the war began but gives no count (WAFA, 5 Oct 2026).",
+   "background": false,
+   "area": "west-bank",
+   "byline": "Palestinian Prisoners' Society; Israel Police (via Israeli outlets), via WAFA · 5 Oct 2026",
+   "outlet": "WAFA",
+   "photo": {
+    "slug": "pps-incitement-surveillance-al-eizariya-principal",
+    "alt": "Al-Eizariya, the town east of Jerusalem where the school principal was arrested (photo from May 2023)",
+    "caption": "Al-Eizariya, the town east of Jerusalem where the school principal was arrested (photo from May 2023). Photo: Hagai Agmon-Snir / Wikimedia Commons, CC BY-SA 4.0.",
+    "kind": "place"
+   }
+  },
+  {
+   "id": "kafr-ad-dik-home-camera-footage-seized",
+   "desk": "speech",
+   "status": "incident",
+   "date": "2026-10-05",
+   "published": "2026-10-05",
+   "place": "Kafr ad-Dik, west of Salfit",
+   "headline": "Troops search homes in Kafr ad-Dik and take residents' security-camera footage",
+   "summary": "Israeli forces raided Kafr ad-Dik, west of Salfit, spread through several neighbourhoods, searched homes and seized footage from surveillance cameras, according to local sources quoted by WAFA. No arrests or names were reported.",
+   "body": "Israeli forces entered Kafr ad-Dik on 5 October, fanned out across several neighbourhoods and searched a number of homes, local sources told WAFA. They took recordings from residents' surveillance cameras before leaving (WAFA, 5 Oct).\n\nThe report gives no figure for the homes searched or the cameras involved, and names no one. It does not say why the footage was taken. The same WAFA report described a separate raid that night in central Tulkarm.\n\nHome and shop cameras are often the only record of what happens during a raid, which is why their footage is so often taken. Kafr ad-Dik itself saw recordings removed from shops and homes during a campaign of raids in May 2025 (Al-Quds, May 2025).\n\nNo Israeli military statement on the Kafr ad-Dik raid was found.",
+   "people": [],
+   "source": "Local sources",
+   "via": "WAFA",
+   "url": "https://english.wafa.ps/Pages/Details/175530",
+   "more_urls": [
+    "https://alquds.com/en/posts/161707"
+   ],
+   "reading": "",
+   "reading_unit": "",
+   "reading_note": "WAFA says 'several' homes were searched but gives no count (5 Oct 2026).",
+   "background": false,
+   "area": "west-bank",
+   "byline": "Local sources, via WAFA · 5 Oct 2026",
+   "outlet": "WAFA",
+   "photo": {
+    "slug": "kafr-ad-dik-home-camera-footage-seized",
+    "alt": "General view of Kafr ad-Dik, west of Salfit (May 2020)",
+    "caption": "General view of Kafr ad-Dik, west of Salfit (May 2020). Photo: أمين (Ameen, Commons user) / Wikimedia Commons, CC BY-SA 4.0.",
+    "kind": "place"
+   }
+  },
+  {
+   "id": "supreme-court-restores-arab-lists",
+   "desk": "speech",
+   "status": "resolved",
+   "date": "2026-10-02",
+   "published": "2026-10-02",
+   "place": "Supreme Court, Jerusalem",
+   "headline": "Supreme Court overturns bans on Arab lists before Israel's 27 October election",
+   "summary": "Israel's Supreme Court unanimously struck down the Central Elections Committee's decision to bar the Joint List and Ra'am, and reinstated MK Ofer Cassif by 7–2. Balad leader Sami Abu Shehadeh withdrew after justices signalled his ban would stand.",
+   "body": "The Central Elections Committee had disqualified the Joint List and Ra'am, plus Hadash MK Ofer Cassif and Balad chairman Sami Abu Shehadeh as individuals, on the grounds that they rejected Israel as a Jewish and democratic state or backed armed struggle (Jerusalem Post, 2 Oct; Times of Israel).\n\nAfter a hearing on 1 October before nine justices, the court on 2 October unanimously restored both lists, saying the evidence fell far short of the narrow test for barring a whole list. Cassif was restored by 7–2; Justices David Mintz and Alex Stein dissented (Jerusalem Post, 2 Oct; Israel National News).\n\nAbu Shehadeh withdrew his candidacy after justices called his remarks \"painful, outrageous and nauseating\" and indicated his disqualification would likely be upheld (Jerusalem Post, 2 Oct).\n\nAdalah, which represented those barred, argued the committee ignored binding case law and the Attorney General's own position (Adalah, late Sept). The ruling lets the main parties of Palestinian citizens of Israel run on 27 October.",
+   "people": [
+    "Ofer Cassif",
+    "Sami Abu Shehadeh",
+    "David Mintz",
+    "Alex Stein"
+   ],
+   "source": "Supreme Court of Israel; Adalah",
+   "via": "Jerusalem Post",
+   "url": "https://www.jpost.com/israel-election-2026/article-910410",
+   "more_urls": [
+    "https://www.israelnationalnews.com/news/434004",
+    "https://www.timesofisrael.com/supreme-court-unanimously-overturns-election-panels-ban-on-arab-parties/",
+    "https://www.aljazeera.com/news/2026/10/2/israels-supreme-court-overturns-election-panel-ban-on-arab-parties",
+    "https://www.adalah.org/en/content/view/11712",
+    "https://www.newarab.com/news/israeli-supreme-court-overturns-joint-list-raam-cassif-ban"
+   ],
+   "reading": "9–0",
+   "reading_unit": "justices' vote to reinstate Ra'am and the Joint List",
+   "reading_note": "An expanded nine-justice panel ruled unanimously for both lists on 2 Oct 2026; MK Ofer Cassif was reinstated 7–2.",
+   "background": false,
+   "area": "israel",
+   "byline": "Supreme Court of Israel; Adalah, via Jerusalem Post · 2 Oct 2026",
+   "outlet": "Jerusalem Post",
+   "photo": {
+    "slug": "supreme-court-restores-arab-lists",
+    "alt": "The Supreme Court building in Jerusalem (September 2012)",
+    "caption": "The Supreme Court building in Jerusalem (September 2012). Photo: Chris Hoare / Wikimedia Commons, CC BY 2.0.",
+    "kind": "subject"
+   }
+  },
+  {
+   "id": "7amleh-q3-2026-308-violations",
+   "desk": "platforms",
+   "status": "pattern",
+   "date": "2026-10-01",
+   "published": "2026-10-01",
+   "place": "Haifa (7amleh)",
+   "headline": "7amleh logs 308 violations in three months, most of them incitement left online",
+   "summary": "7amleh's third-quarter report counts 308 digital violations against Palestinians: 114 cases of censorship of Palestinian content and accounts and 194 cases of violent, inciting or hateful content against them. Instagram and Facebook account for 71% of cases.",
+   "body": "Between July and September 2026, 7amleh's 7or observatory recorded 308 digital violations. Of these, 114 were restrictions on Palestinian content or accounts and 194 were violent, inciting or hateful posts aimed at Palestinians, about 63% of the total (7amleh, 1 Oct).\n\nIncitement was the largest single category with 112 cases, followed by account suspension or restriction (67), hate speech (33) and content removal (21). Instagram (113) and Facebook (107) together made up 71% of cases, ahead of TikTok (37), X (28), YouTube (11) and WhatsApp (9) (7amleh, 1 Oct).\n\nIndividuals bore 282 of the cases; among those identified by role were 36 activists, 26 journalists and 12 content creators. At least 53 of the 194 accounts posting harmful content used Hebrew names or script, and no more than 23% of reported harmful posts were actually removed, the report says (7amleh, 1 Oct).\n\n7amleh's reading is that platforms restrict Palestinian content quickly while incitement against Palestinians, especially in Hebrew, stays up. It warns that the drop from July (171) to August (119) reflects reporting patterns, not necessarily fewer violations.",
+   "people": [],
+   "source": "7amleh – The Arab Center for the Advancement of Social Media",
+   "via": "7amleh",
+   "url": "https://7amleh.org/post/july-september-2026-quarterly-report-en",
+   "more_urls": [
+    "https://7amleh.org/storage/posts/pdf/5c020632-8656-41b4-9d57-54987b63141c.pdf",
+    "https://7amleh.org/post/digital-rights-weekly-update-8-10-en"
+   ],
+   "reading": "308",
+   "reading_unit": "digital rights violations documented",
+   "reading_note": "7amleh's 7or observatory logged 308 cases from July to 21 September 2026; September is partial.",
+   "background": false,
+   "area": "global",
+   "byline": "7amleh – The Arab Center for the Advancement of Social Media, via 7amleh · 1 Oct 2026",
+   "outlet": "7amleh",
+   "photo": {
+    "slug": "7amleh-q3-2026-308-violations",
+    "alt": "Nadim Nashif, 7amleh's founder and director, speaking in Perugia in April 2024",
+    "caption": "Nadim Nashif, 7amleh's founder and director, speaking in Perugia in April 2024. Photo: Jennifer 8. Lee / Wikimedia Commons, CC BY-SA 4.0.",
+    "kind": "subject"
+   }
+  },
+  {
+   "id": "gmo-263-najjar-killed",
+   "desk": "press",
+   "status": "incident",
+   "date": "2026-09-30",
+   "published": "2026-09-30",
+   "place": "Al-Mawasi area of al-Qarara, north-west of Khan Younis",
+   "headline": "Drone strike kills Quran Radio presenter in al-Mawasi; Gaza media office count reaches 263",
+   "summary": "An Israeli drone strike killed Mohammed Abdel Aziz al-Najjar, a presenter at Gaza's Quran Radio, while he was preparing a report in al-Mawasi near Khan Younis on 30 September. Gaza's Government Media Office said he was the 263rd journalist killed since October 2023.",
+   "body": "Mohammed Abdel Aziz al-Najjar, 38, a presenter and producer at Quran Radio, which is linked to Gaza's Ministry of Endowments, was killed by an Israeli drone strike on Wednesday 30 September while preparing a report on Quran memorisation (Telesur citing Anadolu, 30 Sep; Al Jazeera, 30 Sep).\n\nMedical sources at Nasser Medical Complex placed the strike in the al-Mawasi area of al-Qarara, north of Khan Younis, where it hit a gathering of people and wounded others (QNA, 30 Sep).\n\nGaza's Government Media Office said his death brought the number of journalists killed since October 2023 to 263, and urged international press bodies to condemn the killings (GMO via Al-Hadaf and Shehab, 30 Sep; QNA, 1 Oct).\n\nThe killing came during the ceasefire in force since 10 October 2025; Gaza's Health Ministry said at the time that more than 1,400 people had been killed since it began (Telesur citing the ministry, 30 Sep).",
+   "people": [
+    "Mohammed Abdel Aziz al-Najjar",
+    "Ikrami al-Mudallal"
+   ],
+   "source": "Gaza Government Media Office; Nasser Medical Complex",
+   "via": "Al Jazeera; QNA; Telesur (Anadolu)",
+   "url": "https://www.aljazeera.com/news/2026/9/30/israeli-attacks-on-gaza-kill-several-as-ceasefire-violations-continue",
+   "more_urls": [
+    "https://qna.org.qa/en/News-Area/News/2026-10/1/palestinian-journalist-slain-in-israeli-drone-attack-in-southern-gaza",
+    "https://www.telesurtv.net/ataque-israel-263-periodistas-asesinados-gaza/",
+    "https://hadfnews.ps/post/140674",
+    "https://shehabnews.com/post/165059/"
+   ],
+   "reading": "263",
+   "reading_unit": "journalists killed in Gaza since Oct 2023 (Gaza Government Media Office)",
+   "reading_note": "Gaza Government Media Office, 30 Sep 2026: al-Najjar's death raised its count to 263.",
+   "background": true,
+   "area": "gaza",
+   "byline": "Gaza Government Media Office; Nasser Medical Complex, via Al Jazeera; QNA; Telesur (Anadolu) · 30 Sep 2026",
+   "outlet": "Al Jazeera; QNA; Telesur (Anadolu)"
+  },
+  {
+   "id": "senate-rejects-502b-resolution",
+   "desk": "press",
+   "status": "stalled",
+   "date": "2026-09-29",
+   "published": "2026-09-30",
+   "place": "US Senate, Washington, DC",
+   "headline": "Senate votes down West Bank rights report that press groups linked to Abu Akleh",
+   "summary": "The US Senate rejected Senator Van Hollen's resolution requiring a State Department report on West Bank rights abuses and the deaths of nine Americans, by 47 votes to 51, six days after CPJ and others urged support.",
+   "body": "On 29 September the Senate rejected S. Res. 852, led by Senators Chris Van Hollen, Tim Kaine and Bernie Sanders, by 51 votes to 47 (Israel Policy Forum, 30 Sep; Daily Caller, 29 Sep).\n\nThe measure would have required a State Department report within 30 days on human-rights conditions in the West Bank, including efforts to investigate the deaths of US citizens; under Section 502B(c), a missed deadline would have held up security aid to Israel (Israel Policy Forum).\n\nAll Democrats except Senator John Fetterman voted for it, joined by one Republican (Israel Policy Forum). The vote leaves the push for accountability in Shireen Abu Akleh's killing without a new route in Congress (CPJ, 25 Sep).",
+   "people": [
+    "Chris Van Hollen",
+    "Tim Kaine",
+    "Bernie Sanders",
+    "John Fetterman"
+   ],
+   "source": "US Senate",
+   "via": "Israel Policy Forum; Daily Caller",
+   "url": "https://israelpolicyforum.org/2026/09/30/senate-effort-to-investigate-israeli-human-rights-abuses-in-the-west-bank-explained/",
+   "more_urls": [
+    "https://www.vanhollen.senate.gov/news/press-releases/van-hollen-statement-on-senate-vote-on-privileged-resolution-seeking-answers-on-west-bank-violence",
+    "https://dailycaller.com/2026/09/29/senate-blocks-dem-resolution-west-bank-killings/",
+    "https://jstreet.org/press/j-street-statement-47-senators-voting-investigate-human-rights-conditions-west-bank"
+   ],
+   "reading": "47–51",
+   "reading_unit": "Senate vote (for–against)",
+   "reading_note": "US Senate, 29 Sep 2026: S. Res. 852 failed 47–51.",
+   "background": true,
+   "area": "global",
+   "byline": "US Senate, via Israel Policy Forum; Daily Caller · 29 Sep 2026",
+   "outlet": "Israel Policy Forum; Daily Caller",
+   "photo": {
+    "slug": "senate-rejects-502b-resolution",
+    "alt": "Senator Chris Van Hollen of Maryland, official portrait, 2017",
+    "caption": "Senator Chris Van Hollen of Maryland, official portrait, 2017. Photo: U.S. Senate Photographic Studio / Wikimedia Commons, Public domain.",
+    "kind": "subject"
+   }
+  },
+  {
+   "id": "naqaa-hamed-released",
+   "desk": "press",
+   "status": "resolved",
+   "date": "2026-09-28",
+   "published": "2026-09-28",
+   "place": "Tuqu', south-east of Bethlehem",
+   "headline": "Palestinian-American journalist Naqaa Hamed freed after 13 days in Israeli detention",
+   "summary": "Naqaa Hamed, arrested at an army checkpoint near Bethlehem on 15 September as she returned from a TRT assignment, was released on 28 September. CPJ says she was freed without charge; the journalists' syndicate says on 8,000 shekels' bail.",
+   "body": "Israeli forces arrested Naqaa Hamed, a Palestinian-American freelancer, at a temporary checkpoint in Tuqu', near Bethlehem, on 15 September as she returned from an assignment for Turkish broadcaster TRT in Masafer Yatta (CPJ, 17 Sep; PJS via WAFA, 8 Oct).\n\nPolice told CPJ she was being investigated for trading with the enemy, incitement and support for Iran; she is also a correspondent for Iran's Press TV, and a military court extended her detention to 23 September (CPJ, 17 Sep). CPJ called the espionage claims unsubstantiated and demanded her release (CPJ).\n\nShe was released on 28 September; CPJ, citing her sister and her lawyer, says without charge, while the syndicate says on bail of 8,000 shekels (CPJ profile; PJS via WAFA).",
+   "people": [
+    "Naqaa Hamed",
+    "Khaled Mahajnah",
+    "Sara Qudah"
+   ],
+   "source": "CPJ; Palestinian Journalists Syndicate",
+   "via": "WAFA",
+   "url": "https://cpj.org/2026/09/cpj-demands-release-of-arrested-palestinian-us-journalist-near-bethlehem/",
+   "more_urls": [
+    "https://cpj.org/data/people/naqaa-hamed/",
+    "https://www.ynetnews.com/article/nomhqi8ij",
+    "https://jpost.com/middle-east/article-908720"
+   ],
+   "reading": "13",
+   "reading_unit": "days in Israeli detention",
+   "reading_note": "Arrested 15 Sep 2026 at a checkpoint in Tuqu'; released 28 Sep (CPJ; PJS).",
+   "background": true,
+   "area": "west-bank",
+   "byline": "CPJ; Palestinian Journalists Syndicate, via WAFA · 28 Sep 2026",
+   "outlet": "CPJ; WAFA",
+   "photo": {
+    "slug": "naqaa-hamed-released",
+    "alt": "Olive groves on the al-Buqei'a plain in Tuqu', near where Hamed was stopped, November 2016",
+    "caption": "Olive groves on the al-Buqei'a plain in Tuqu', near where Hamed was stopped, November 2016. Photo: Malak Jibreel / Wikimedia Commons, CC BY-SA 4.0.",
+    "kind": "place"
+   }
+  },
+  {
+   "id": "cpj-count-247-killed",
+   "desk": "press",
+   "status": "pattern",
+   "date": "2026-09-25",
+   "published": "2026-09-25",
+   "place": "New York (CPJ)",
+   "headline": "CPJ: Israel has killed 247 journalists since October 2023, 189 of them in Gaza",
+   "summary": "In its September appeal on the Shireen Abu Akleh case, CPJ gave its latest count: 247 journalists and media workers killed by Israel since October 2023, including 189 Palestinians killed in Gaza. It says Israeli forces have killed more journalists than any other actor since CPJ began counting in 1992.",
+   "body": "CPJ's count, published on 25 September, stands at 247 journalists and media workers killed by Israel since October 2023, of whom 189 were Palestinians killed in Gaza (CPJ, 25 Sep).\n\nCPJ says Israeli forces have killed more journalists and media workers than any other actor since it began collecting data in 1992 (CPJ).\n\nCPJ applies its own inclusion rules, so its Gaza figure is lower than the 263 counted by Gaza's Government Media Office (GMO via Anadolu, 7 Oct).",
+   "people": [],
+   "source": "Committee to Protect Journalists",
+   "via": "CPJ",
+   "url": "https://cpj.org/2026/09/cpj-urges-us-senators-to-seek-accountability-for-israels-killing-of-journalist-shireen-abu-akleh/",
+   "more_urls": [],
+   "reading": "247",
+   "reading_unit": "journalists and media workers killed by Israel since Oct 2023 (CPJ), 189 of them Palestinians in Gaza",
+   "reading_note": "CPJ, 25 Sep 2026: 247 journalists and media workers killed by Israel since October 2023, including 189 Palestinians killed in Gaza.",
+   "background": true,
+   "area": "global",
+   "byline": "Committee to Protect Journalists, via CPJ · 25 Sep 2026",
+   "outlet": "CPJ",
+   "photo": {
+    "slug": "cpj-count-247-killed",
+    "alt": "Painted portraits of killed Palestinian journalists Anas Al-Sharif, Khaled El-Shawa and Saleh Al-Jafarawi, in press vests, carried in Madrid on 17 May 2026",
+    "caption": "Painted portraits of killed Palestinian journalists Anas Al-Sharif, Khaled El-Shawa and Saleh Al-Jafarawi, in press vests, carried in Madrid on 17 May 2026. Photo: Barcex / Wikimedia Commons, CC BY-SA 4.0.",
+    "kind": "subject"
+   }
+  },
+  {
+   "id": "pps-field-interrogations-phones-seized",
+   "desk": "speech",
+   "status": "pattern",
+   "date": "2026-09-21",
+   "published": "2026-09-21",
+   "place": "al-Mughayyir and Biddu",
+   "headline": "Prisoners' Society says troops seize and search phones during mass field interrogations",
+   "summary": "The Palestinian Prisoners' Society says Israeli forces held and questioned more than 100 people over two days in al-Mughayyir and Biddu, and that confiscating and searching mobile phones has become a standard part of these on-the-spot interrogations.",
+   "body": "Israeli forces carried out field interrogations of more than 100 Palestinians over two days, mostly in al-Mughayyir and Biddu, with dozens of young men held in a house taken over as an interrogation point in Biddu, the Palestinian Prisoners' Society said (PPS via WAFA, 21 Sep). Most were later released.\n\nPPS said troops routinely take money, belongings and electronic devices, especially phones, during these sweeps, search their contents and use what they find to put pressure on people (WAFA, 21 Sep).\n\nField interrogations leave little paper trail: people are held for hours, questioned and released, so the phone search is often the main thing taken away. The same practice appears in October raids, when troops checked a Bethlehem student leader's phone (Egyptian Gazette citing WAFA, 21 Oct).",
+   "people": [],
+   "source": "Palestinian Prisoners' Society",
+   "via": "WAFA",
+   "url": "https://english.wafa.ps/Pages/Details/174967",
+   "more_urls": [
+    "https://english.wafa.ps/Pages/Details/175832"
+   ],
+   "reading": "100+",
+   "reading_unit": "people field-interrogated in two days",
+   "reading_note": "PPS count for al-Mughayyir and Biddu over 19–21 Sep 2026 (WAFA, 21 Sep).",
+   "background": true,
+   "area": "west-bank",
+   "byline": "Palestinian Prisoners' Society, via WAFA · 21 Sep 2026",
+   "outlet": "WAFA",
+   "photo": {
+    "slug": "pps-field-interrogations-phones-seized",
+    "alt": "Al-Mughayyir seen from the north along the Allon road (July 2012)",
+    "caption": "Al-Mughayyir seen from the north along the Allon road (July 2012). Photo: יעקב (Commons user) / Wikimedia Commons, CC BY-SA 3.0.",
+    "kind": "place"
+   }
+  },
+  {
+   "id": "thirteen-in-gaza-netpac-tiff",
+   "desk": "creators",
+   "status": "recognised",
+   "date": "2026-09-20",
+   "published": "2026-09-22",
+   "place": "Toronto International Film Festival",
+   "headline": "Thirteen in Gaza, shot entirely in Gaza, wins Toronto's NETPAC award",
+   "summary": "Hosam Abu Dan's debut fiction feature Thirteen in Gaza, made in Gaza with a local cast and crew, won the NETPAC Award at the 51st Toronto International Film Festival. The director could not travel and spoke to the audience by video.",
+   "body": "Thirteen in Gaza won the NETPAC Award, given by the Network for the Promotion of Asian Cinema to a first or second feature, at the 51st Toronto festival (10–20 September) after premiering in its Centrepiece section (Ahram Online, 22 Sep).\n\nThe film follows 13-year-old Raghad, whose home is destroyed, as she grows up in a crowded displacement camp while her father is drawn into a black-market economy. It was shot entirely in Gaza with a local cast and crew, which Deadline called the first feature-length local production there since the war began (Ahram Online, 22 Sep; Deadline via Northeast Times).\n\nAbu Dan was unable to travel to Toronto and addressed the premiere audience in a pre-recorded video. The jury was chaired by Mara Matta with Richard Fung and Panos Kotzathanasis (Egypt Independent; Arab News, Sep).\n\nThe film's next stop is the Doha Film Festival competition in November (Türkiye Today, 12 Oct).",
+   "people": [
+    "Hosam Abu Dan",
+    "Khalil Al-Muzayyen",
+    "Mara Matta"
+   ],
+   "source": "Toronto International Film Festival / NETPAC",
+   "via": "Ahram Online",
+   "url": "https://english.ahram.org.eg/News/577186.aspx",
+   "more_urls": [
+    "https://www.egyptindependent.com/palestinian-feature-thirteen-in-gaza-wins-netpac-award-at-toronto-international-film-festival/",
+    "https://www.arabnews.com/lifestyle/thirteen-in-gaza-wins-toronto-international-film-festival-award-3002627",
+    "https://deadline.com/2026/09/thirteen-gaza-trailer-father-daughter-palestinian-netpac-1237109243/"
+   ],
+   "reading": "",
+   "reading_unit": "",
+   "reading_note": "",
+   "background": true,
+   "area": "gaza",
+   "byline": "Toronto International Film Festival / NETPAC, via Ahram Online · 20 Sep 2026",
+   "outlet": "Ahram Online"
+  },
+  {
+   "id": "naza-filmmakers-cpj-appeal",
+   "desk": "press",
+   "status": "open",
+   "date": "2026-09-18",
+   "published": "2026-09-18",
+   "place": "Israel",
+   "headline": "CPJ and ten groups ask Israel to protect 'NAZA' filmmakers after citizenship threats",
+   "summary": "After ministers threatened to strip Yuval Abraham and Rachel Szor of their citizenship over their Venice-prize documentary 'NAZA', CPJ and ten international groups called on Israel to end the campaign against them and guarantee their safety.",
+   "body": "On 18 September CPJ and 10 international press-freedom organisations called on Israel to protect the safety and rights of investigative journalists and filmmakers Yuval Abraham and Rachel Szor, whose film 'NAZA' won a Special Jury Prize at the Venice Film Festival (CPJ, 18 Sep).\n\nCulture Minister Miki Zohar threatened to seek the revocation of their citizenship, and army chief Eyal Zamir said military lawyers were examining legal steps over the film (CPJ, 17 Sep). On 16 September Prime Minister Netanyahu said his government would bring bills to strip citizenship from Israelis who 'defame' soldiers abroad and to raise defamation damages; neither had become law (CPJ, 17 Sep).\n\nThe same evening dozens of protesters gathered outside Szor's parents' home, and the offices of Hebrew-language site Sicha Mekomit, which publishes Abraham's investigations, were broken into, its co-director Hagai Matar said (CPJ, 17 Sep).\n\nThe film draws on investigations published by Sicha Mekomit, +972 Magazine and The Guardian (CPJ). We found no report of the bills being tabled in the Knesset by 24 October.",
+   "people": [
+    "Yuval Abraham",
+    "Rachel Szor",
+    "Miki Zohar",
+    "Eyal Zamir",
+    "Benjamin Netanyahu",
+    "Hagai Matar"
+   ],
+   "source": "CPJ and 10 partner organisations",
+   "via": "CPJ",
+   "url": "https://cpj.org/2026/09/cpj-partners-call-on-israel-to-protect-naza-filmmakers-fundamental-rights/",
+   "more_urls": [
+    "https://cpj.org/2026/09/netanyahu-escalates-threats-against-naza-filmmakers-with-proposed-citizenship-law/",
+    "https://cpj.org/2026/09/cpj-condemns-israeli-threats-against-naza-filmmakers/",
+    "https://cpj.org/wp-content/uploads/2026/09/CPJ-and-international-press-rights-groups-call-on-Israel-to-protect-Abraham-and-Szors-fundamental-rights.pdf",
+    "https://www.timesofisrael.com/pm-pledges-bill-to-strip-citizenship-from-those-who-smear-idf-abroad-amid-naza-outcry/"
+   ],
+   "reading": "11",
+   "reading_unit": "press-freedom groups in the joint appeal (CPJ and 10 partners)",
+   "reading_note": "CPJ and 10 international press-freedom groups, 18 Sep 2026.",
+   "background": true,
+   "area": "israel",
+   "byline": "CPJ and 10 partner organisations, via CPJ · 18 Sep 2026",
+   "outlet": "CPJ",
+   "photo": {
+    "slug": "naza-filmmakers-cpj-appeal",
+    "alt": "Yuval Abraham and Rachel Szor with the Special Jury Prize for 'NAZA' at the Venice festival's closing ceremony, 12 September 2026",
+    "caption": "Yuval Abraham and Rachel Szor with the Special Jury Prize for 'NAZA' at the Venice festival's closing ceremony, 12 September 2026. Photo: Ondine Goat / Wikimedia Commons, CC BY-SA 4.0.",
+    "kind": "subject"
+   }
+  },
+  {
+   "id": "prisoners-society-39-journalists",
+   "desk": "press",
+   "status": "open",
+   "date": "2026-09-17",
+   "published": "2026-09-17",
+   "place": "Ramallah (Palestinian Prisoners' Society)",
+   "headline": "Prisoners' group: 39 Palestinian journalists in Israeli jails, 21 held without charge",
+   "summary": "The Palestinian Prisoners' Society said the number of journalists in Israeli prisons rose to 39 after Alaa al-Rimawi's arrest on 17 September. Twenty-one are in administrative detention on secret files, and five are women.",
+   "body": "After Israeli forces arrested journalist Alaa al-Rimawi in Ramallah before dawn on 17 September, the Palestinian Prisoners' Society said 39 journalists were now held in Israeli prisons, all of them arrested since October 2023 (PPS via WAFA, 17 Sep).\n\nTwenty-one of them are in administrative detention, held without charge or trial on secret evidence, and five are women (PPS via WAFA). Three days earlier the group had given a figure of 37, with 19 in administrative detention (PPS via Tasnim, 14 Sep).\n\nThe society said Muath Amarneh and Sabri Jibrin of Bethlehem had been given four-month administrative orders, that Naqaa Hamed's detention had been extended to 23 September, and that Bushra al-Tawil had been moved from Damon prison to isolation in Ramla (PPS via WAFA).\n\nThe count has moved since: Naqaa Hamed was freed on 28 September (CPJ), Hazem Nasser on 20 October (PNN), and Saleh Shawka was arrested on 22 October (Wattan). We found no newer total from the society.",
+   "people": [
+    "Alaa al-Rimawi",
+    "Muath Amarneh",
+    "Sabri Jibrin",
+    "Naqaa Hamed",
+    "Bushra al-Tawil"
+   ],
+   "source": "Palestinian Prisoners' Society",
+   "via": "WAFA",
+   "url": "https://www.wafa.ps/news/2026/9/17/%D9%86%D8%A7%D8%AF%D9%8A-%D8%A7%D9%84%D8%A3%D8%B3%D9%8A%D8%B1-39-%D8%B5%D8%AD%D9%81%D9%8A%D8%A7-%D9%81%D9%8A-%D8%B3%D8%AC%D9%88%D9%86-%D8%A7%D9%84%D8%A7%D8%AD%D8%AA%D9%84%D8%A7%D9%84-154194",
+   "more_urls": [
+    "https://www.arab48.com/%D9%81%D9%84%D8%B3%D8%B7%D9%8A%D9%86%D9%8A%D8%A7%D8%AA/%D8%A7%D9%84%D8%AD%D8%B1%D9%83%D8%A9-%D8%A7%D9%84%D8%A3%D8%B3%D9%8A%D8%B1%D8%A9/2026/09/17/%D8%B9%D8%AF%D8%AF-%D8%A7%D9%84%D8%B5%D8%AD%D8%A7%D9%81%D9%8A%D9%8A%D9%86-%D8%A7%D9%84%D9%81%D9%84%D8%B3%D8%B7%D9%8A%D9%86%D9%8A%D9%8A%D9%86-%D9%81%D9%8A-%D8%B3%D8%AC%D9%88%D9%86-%D8%A7%D9%84%D8%A7%D8%AD%D8%AA%D9%84%D8%A7%D9%84-%D9%8A%D8%B1%D8%AA%D9%81%D8%B9-%D8%A5%D9%84%D9%89-39",
+    "https://www.tasnimnews.ir/en/news/2026/09/14/3696445/israeli-regime-holds-37-palestinian-journalists-in-jails-rights-group-says",
+    "https://qna.org.qa/en/News-Area/News/2026-8/12/palestinian-prisoners-society-40-journalists-held-in-israeli-custody-250-plus-detained-since-gaza-war-began"
+   ],
+   "reading": "39",
+   "reading_unit": "journalists held in Israeli prisons",
+   "reading_note": "Palestinian Prisoners' Society, 17 Sep 2026: 39 journalists held, 21 of them in administrative detention, five of them women.",
+   "background": true,
+   "area": "west-bank",
+   "byline": "Palestinian Prisoners' Society, via WAFA · 17 Sep 2026",
+   "outlet": "WAFA"
+  },
+  {
+   "id": "7amleh-solidarity-censored-europe",
+   "desk": "platforms",
+   "status": "pattern",
+   "date": "2026-09-14",
+   "published": "2026-09-14",
+   "place": "France, Germany, Ireland, Italy, Netherlands, UK",
+   "headline": "7amleh report says EU rules give little sight of Palestine-related takedowns",
+   "summary": "7amleh's \"Solidarity Censored\" examines how pro-Palestine expression was restricted online in six European countries. It blames a mix of platform policy, national law and government requests, and says the EU's Digital Services Act offers appeal routes but little transparency.",
+   "body": "The report covers France, Germany, Ireland, Italy, the Netherlands and the UK from 7 October 2023 to the end of 2025, using legal analysis, surveys, interviews and testimonies (7amleh, 14 Sep).\n\nIt documents removals, suspensions, reduced reach, shadow-banning and limits on commenting, sharing and livestreaming, often with little or no explanation to users (7amleh, 14 Sep).\n\n7amleh argues the restrictions cannot be blamed on platforms alone: national laws, regulatory pressure and government takedown requests combine to produce a chilling effect. It says the Digital Services Act gives users appeal tools but its reporting reveals little about Palestine-related or state-driven removals (7amleh, 14 Sep).\n\nIt asks platforms for real human oversight of automated moderation and asks the European Commission to enforce the DSA more strongly. Days earlier, 7amleh received a 2026 EFF Award for its digital rights work (7amleh, 10 Sep).",
+   "people": [],
+   "source": "7amleh",
+   "via": "",
+   "url": "https://7amleh.org/post/eu-censorship-en",
+   "more_urls": [
+    "https://7amleh.org/post/7amleh-eff-award-2026-en"
+   ],
+   "reading": "6",
+   "reading_unit": "European countries examined",
+   "reading_note": "Period covered: 7 Oct 2023 to 31 Dec 2025 (7amleh, 14 Sep 2026).",
+   "background": true,
+   "area": "global",
+   "byline": "7amleh · 14 Sep 2026",
+   "outlet": "7amleh"
+  },
+  {
+   "id": "pjs-august-report",
+   "desk": "press",
+   "status": "pattern",
+   "date": "2026-09-08",
+   "published": "2026-09-09",
+   "place": "Ramallah (Palestinian Journalists Syndicate)",
+   "headline": "August report: 84 violations against Palestinian journalists, including a death in custody",
+   "summary": "The syndicate's August tally was 84 violations, led by 30 cases of journalists detained or kept from working. It also recorded seven arrests, six assaults, seven cases of footage confiscated or deleted and one journalist's death in Israeli custody.",
+   "body": "The Freedoms Committee of the Palestinian Journalists Syndicate issued its August report on 8 September, counting 84 alleged violations (JournalismPakistan, 9 Sep; IMEMC).\n\nThe largest category was 30 cases of media crews detained or prevented from working. The committee also listed 10 tear-gas incidents, seven arrests, six physical assaults, six death threats or weapons brandished, seven cases of material confiscated or deleted, three of equipment seized or destroyed, four raids on media offices or homes, three court appearances, three cases of threats or abuse, three settler attacks, one death in Israeli custody and one gunshot injury (PJS via JournalismPakistan).\n\nThe syndicate also said more than 30 sick or injured journalists and media workers in Gaza had been refused permission to leave through Rafah for treatment (PJS via JournalismPakistan). Its July count had been 108 (PJS).",
+   "people": [],
+   "source": "Palestinian Journalists Syndicate (Freedoms Committee)",
+   "via": "JournalismPakistan; IMEMC",
+   "url": "https://www.journalismpakistan.com/palestinian-syndicate-records-84-israeli-press-violations",
+   "more_urls": [
+    "https://imemc.org/article/report-84-israeli-violations-against-palestinian-journalists/",
+    "https://sana.sy/en/international/2335604/"
+   ],
+   "reading": "84",
+   "reading_unit": "violations against journalists in August 2026",
+   "reading_note": "PJS Freedoms Committee report issued 8 Sep 2026; July's total was 108.",
+   "background": true,
+   "area": "west-bank",
+   "byline": "Palestinian Journalists Syndicate (Freedoms Committee), via JournalismPakistan; IMEMC · 8 Sep 2026",
+   "outlet": "JournalismPakistan; IMEMC"
+  },
+  {
+   "id": "jehad-alshrafi-deauville-photo-reinstated",
+   "desk": "creators",
+   "status": "resolved",
+   "date": "2026-08-31",
+   "published": "2026-09-02",
+   "place": "Deauville and Caen, France",
+   "headline": "French court orders Deauville to put back AP photographer's Gaza football picture",
+   "summary": "The Deauville Sport Images Festival swapped Jehad Alshrafi's photo of a football match amid Gaza's ruins for a cycling picture after \"pressure\". A court in Caen suspended the mayor's removal order as neither necessary nor proportionate.",
+   "body": "Organisers of the Deauville Sport Images Festival replaced AP photographer Jehad Alshrafi's image of a football match in Gaza, taken on 14 February 2026 with damaged buildings behind the players, with a cycling photo after requests from unnamed outside parties (The New Arab; PetaPixel, 2 Sep).\n\nThe town cited public order and graffiti on city property. The administrative court in Caen, ruling on a case brought by the Observatory for Freedom of Creation, found the removal neither necessary nor proportionate, suspended it and ordered the city to pay €1,000 in costs (PetaPixel, 2 Sep; Arab News/AFP).\n\nCity officials told the court it would take about six days to reprint the image and put it back (pttl.gr, Sep).\n\nWeeks later Alshrafi won the Prix Bayeux young reporter photo prize for his Gaza series (AFP, 11 Oct).",
+   "people": [
+    "Jehad Alshrafi"
+   ],
+   "source": "Caen administrative court",
+   "via": "PetaPixel; AFP",
+   "url": "https://petapixel.com/2026/09/02/court-orders-sports-photography-festival-to-reinstate-gaza-soccer-photo-that-was-removed/",
+   "more_urls": [
+    "https://www.arabnews.com/node/2656469/middle-east",
+    "https://www.newarab.com/news/french-sports-fest-scraps-gaza-football-picture-after-pressure",
+    "https://phototrend.fr/2026/08/retrait-photo-gaza-festival-deauville/",
+    "https://france3-regions.franceinfo.fr/normandie/calvados/deauville/pourquoi-une-photo-de-football-a-gaza-a-t-elle-disparu-du-deauville-sport-images-festival-3405941.html"
+   ],
+   "reading": "€1,000",
+   "reading_unit": "costs the court ordered Deauville to pay",
+   "reading_note": "Caen administrative court ruling reported 1–2 Sep 2026; some reports give 31 Aug as the ruling date.",
+   "background": true,
+   "area": "global",
+   "byline": "Caen administrative court, via PetaPixel; AFP · 31 Aug 2026",
+   "outlet": "PetaPixel; AFP"
+  },
+  {
+   "id": "palestinian-leaders-speech-trials-2026",
+   "desk": "speech",
+   "status": "open",
+   "date": "2026-08-06",
+   "published": "2026-08-06",
+   "place": "Haifa, Nazareth and Petah Tikva courts",
+   "headline": "Courts hand light sentences in leaders' speech trials, but Eghbaria's verdict is still awaited",
+   "summary": "Adalah says Israel has moved from prosecuting ordinary Palestinian citizens over posts to prosecuting their political leaders. Two cases ended this summer in far lighter sentences than prosecutors wanted; Raja Eghbaria, convicted over ten Facebook posts, had not been sentenced in any report found.",
+   "body": "Adalah's August briefing on the \"criminalisation of Palestinian leaders\" lists several speech cases. Community leaders Mohammad Taher Jabareen and Ahmad Khalifa, prosecuted over protest chants in Umm al-Fahm in October 2023, were sentenced on 23 June 2026 to time already served, plus a fine and a suspended term (Adalah, 6 Aug).\n\nSheikh Kamal Khatib, convicted in 2025 over two Facebook posts and a May 2021 speech, was sentenced on 20 July to nine months' community service; the state had asked for 30 to 50 months. Adalah and Meezaan said they would appeal the conviction (Adalah, 6 Aug).\n\nRaja Eghbaria, a former leader of the High Follow-Up Committee, was convicted in November 2025 over ten Facebook posts from 2017–18; prosecutors sought 18 to 40 months and a sentencing hearing was listed for 8 September (Adalah, 6 Aug; +972, 6 Jul). No report of a sentence was found.\n\nSeparately, former committee chair Mohammad Barakeh was detained on 23 June over a 2022 speech in Ramallah, released with a 30-day West Bank entry ban, and had his two phones seized (Ynet, Jun; +972, 6 Jul). +972 says hundreds of Palestinian citizens have been questioned over posts and dozens indicted under the Counter-Terrorism Law.",
+   "people": [
+    "Raja Eghbaria",
+    "Kamal Khatib",
+    "Mohammad Taher Jabareen",
+    "Ahmad Khalifa",
+    "Mohammad Barakeh"
+   ],
+   "source": "Adalah",
+   "via": "Adalah newsletter; +972 Magazine",
+   "url": "https://mailchi.mp/adalah/newsletter-criminalization-palestinian-leaders",
+   "more_urls": [
+    "https://www.972mag.com/israel-palestinian-citizens-leaders-silenced/",
+    "https://www.adalah.org/en/content/view/11664",
+    "https://www.ynetnews.com/article/h17f4nofmg",
+    "https://jpost.com/israel-news/politics-and-diplomacy/article-900311"
+   ],
+   "reading": "30–50",
+   "reading_unit": "months in prison the state sought for Sheikh Kamal Khatib",
+   "reading_note": "On 20 Jul 2026 the Nazareth court instead imposed nine months' community service, a fine and a suspended sentence (Adalah, 6 Aug 2026).",
+   "background": true,
+   "area": "israel",
+   "byline": "Adalah, via Adalah newsletter; +972 Magazine · 6 Aug 2026",
+   "outlet": "Adalah newsletter; +972 Magazine",
+   "photo": {
+    "slug": "palestinian-leaders-speech-trials-2026",
+    "alt": "Raja Eghbaria (spelled Agbaria on Commons), photographed in 2013",
+    "caption": "Raja Eghbaria (spelled Agbaria on Commons), photographed in 2013. Photo: Moataz1997 (Commons user) / Wikimedia Commons, CC BY-SA 4.0.",
+    "kind": "subject"
+   }
+  },
+  {
+   "id": "intercept-israel-meta-takedown-requests-iran-war",
+   "desk": "platforms",
+   "status": "pattern",
+   "date": "2026-06-18",
+   "published": "2026-06-18",
+   "place": "Meta (Facebook, Instagram)",
+   "headline": "Internal records show Israel asked Meta to remove Iran-war posts",
+   "summary": "Internal Meta records seen by The Intercept show Israel's government asked Meta to take down posts supporting Iran, mourning Ayatollah Khamenei or showing missile damage, and posts criticising Itamar Ben-Gvir's Al-Aqsa visit. Meta complied in some cases.",
+   "body": "Israel's government asked Meta to remove Facebook and Instagram posts that backed Iran, opposed Israel or showed Iranian missile impacts during the Iran war, along with posts mourning Ayatollah Khamenei, according to internal Meta records reviewed by The Intercept (The Intercept, 18 Jun).\n\nThe records show Meta complied in some cases, without showing on what grounds. Israel also sought removal of posts criticising Itamar Ben-Gvir's visit to Al-Aqsa and lobbied for a blanket rule on images of war damage inside Israel, which Meta declined to adopt globally (The Intercept, 18 Jun).\n\nMeta spokesperson Daniel Roberts said anyone can report content and that it is \"wrong and irresponsible\" to call the requests improper; Meta did not say how many Iran-related requests it granted (The Intercept, 18 Jun).\n\nThe article recalls that Israel's State Attorney reported 92% compliance by platforms in 2023, and Drop Site News put Meta's rate at 94% since October 2023 (The Intercept, 18 Jun).",
+   "people": [
+    "Daniel Roberts",
+    "Sam Biddle"
+   ],
+   "source": "Internal Meta records",
+   "via": "The Intercept",
+   "url": "https://theintercept.com/2026/06/18/israel-facebook-censor-content-moderation-iran-war/",
+   "more_urls": [
+    "https://www.eff.org/deeplinks/2024/07/digital-apartheid-gaza-unjust-content-moderation-request-israels-cyber-unit"
+   ],
+   "reading": "94%",
+   "reading_unit": "Meta compliance rate with Israeli takedown requests since Oct 2023",
+   "reading_note": "Drop Site News figure (2025) cited by The Intercept on 18 Jun 2026; Israel's State Attorney reported 92% for 2023.",
+   "background": true,
+   "area": "global",
+   "byline": "Internal Meta records, via The Intercept · 18 Jun 2026",
+   "outlet": "The Intercept"
+  },
+  {
+   "id": "7amleh-platformicide-meta-report",
+   "desk": "platforms",
+   "status": "pattern",
+   "date": "2026-06-09",
+   "published": "2026-08-13",
+   "place": "Meta (Facebook, Instagram)",
+   "headline": "Study of 3,520 cases finds Meta rarely says which rule Palestinian posts broke",
+   "summary": "A 7amleh and Utrecht University study of 3,520 complaints from 2021 to 2025 finds Meta named a violated rule in only about a third of cases, and in most of those it used its Dangerous Organisations and Individuals policy. For journalists the share was 71%.",
+   "body": "\"The Platformicide of Palestine 2021–2025\", by 7amleh with Utrecht University researcher Fabio Cristiano, analysed 3,520 cases reported to 7amleh's observatory between January 2021 and December 2025 (Novara Media, 13 Aug; 7amleh on X, 9 Jun).\n\nMeta cited a specific rule in only 1,144 cases. Of those, 654 (57.2%) fell under the Dangerous Organisations and Individuals policy, rising to 71.1% for journalists (128 of 180) and 59.3% for media outlets (102 of 172) (Novara Media, 13 Aug).\n\nThe authors say the policy applies a security lens to Palestinian expression and that Meta's newsworthiness allowance was often not used. 7amleh's Nadim Nashif called the pattern structural bias within Meta's systems (Novara Media, 13 Aug; Al Jazeera, 12 Aug).\n\nCoverage reports that nearly half of about 2,800 appeals got no answer, and that Meta points to dialect-expert review and revisions of the policy (search summaries of Al Jazeera and Palestine Chronicle, Aug).",
+   "people": [
+    "Fabio Cristiano",
+    "Nadim Nashif"
+   ],
+   "source": "7amleh; Utrecht University",
+   "via": "Novara Media",
+   "url": "https://novaramedia.com/2026/08/13/meta-systematically-suppresses-palestinian-voices-research-finds/",
+   "more_urls": [
+    "https://x.com/7amleh/status/2064331748066914500",
+    "https://www.aljazeera.com/news/2026/8/12/platformicide-of-palestine-activists-struggle-to-be-heard-on-meta",
+    "https://www.researchgate.net/publication/406832767_The_Platformicide_of_Palestine_2021-2025_A_data-based_analysis_of_Meta's_policy_application_moderation_enforcement_and_communication",
+    "https://mondoweiss.net/2026/06/power-pushback-new-report-details-metas-crackdown-on-palestinian-digital-content/"
+   ],
+   "reading": "57.2%",
+   "reading_unit": "of cases with an identifiable rule were enforced under Meta's Dangerous Organisations policy",
+   "reading_note": "654 of 1,144 cases, from 3,520 reports to 7amleh's observatory, Jan 2021–Dec 2025.",
+   "background": true,
+   "area": "global",
+   "byline": "7amleh; Utrecht University, via Novara Media · 9 Jun 2026",
+   "outlet": "Novara Media",
+   "photo": {
+    "slug": "7amleh-platformicide-meta-report",
+    "alt": "Entrance to Meta's headquarters in Menlo Park, California (March 2022)",
+    "caption": "Entrance to Meta's headquarters in Menlo Park, California (March 2022). Photo: LPS.1 / Wikimedia Commons, CC0.",
+    "kind": "subject"
+   }
+  },
+  {
+   "id": "rdna-gaza-ict-damage",
+   "desk": "networks",
+   "status": "degraded",
+   "date": "2026-04-20",
+   "published": "2026-04-20",
+   "place": "Gaza Strip",
+   "headline": "Joint assessment: four in five of Gaza's telecom assets destroyed, $500m needed to rebuild",
+   "summary": "The final damage assessment by the World Bank, UN and EU puts direct damage to Gaza's telecom sector at US$200.7 million, with 81% of assets destroyed. It estimates US$346 million in sector losses and US$500.5 million needed over five years to rebuild.",
+   "body": "The Rapid Damage and Needs Assessment for Gaza, released on 20 April and covering October 2023 to October 2025, has a chapter on information and communications technology (RDNA, Apr 2026, p. 34).\n\nIt estimates direct damage at US$200.7 million: 81% of assets destroyed, 12% partly damaged and 7% lightly damaged, from mobile towers and fibre backbone to data centres and exchange buildings. Gaza Governorate accounts for the largest share, US$97.6 million, followed by Khan Younis and North Gaza (RDNA, p. 34).\n\nLosses come to US$346 million, mostly lost revenue (US$318 million) as billable traffic fell and operators gave free or cheap service to keep displaced people connected; extra running costs, mainly generator fuel and emergency repairs, add US$27.7 million (RDNA, p. 34).\n\nThe assessment notes that even before the war Gaza ran only on 2G, leaving more than two million people without mobile broadband, and puts recovery needs at US$500.5 million over five years (RDNA, p. 34). Its authors say data were gathered mainly by remote methods because of access limits (RDNA, p. 2).",
+   "people": [],
+   "source": "World Bank, United Nations and European Union",
+   "via": "World Bank documents; UN in Palestine",
+   "url": "https://thedocs.worldbank.org/en/doc/e539cbf23b348c3d4fc69b8a7e9c9d7d-0280062026/rapid-damage-and-needs-assessment-gaza-strip-april-2026",
+   "more_urls": [
+    "https://palestine.un.org/en/150011-gaza-rapid-damage-and-needs-assessment",
+    "https://static.poder360.com.br/2026/04/Relatorio-Avaliacao-Danos-Necessidades-Gaza-20-abr-2026.pdf",
+    "https://thedefensepost.com/2026/04/20/gaza-war-rebuild-cost/",
+    "https://www.timesofpalestine.com/en/story/israel-s-spectrum-hold-delays-palestinian-4g-to-7c751a9c6d.html"
+   ],
+   "reading": "81%",
+   "reading_unit": "share of Gaza's ICT assets destroyed",
+   "reading_note": "World Bank–UN–EU Rapid Damage and Needs Assessment, released 20 Apr 2026, covering Oct 2023–Oct 2025: US$200.7m damage, 81% of assets destroyed, 12% partly damaged.",
+   "background": true,
+   "area": "gaza",
+   "byline": "World Bank, United Nations and European Union, via World Bank documents; UN in Palestine · 20 Apr 2026",
+   "outlet": "World Bank documents; UN in Palestine",
+   "photo": {
+    "slug": "rdna-gaza-ict-damage",
+    "alt": "A damaged street in Gaza City's Rimal district with a broken power pole and shop signs, filed on Commons under Ooredoo Palestine, 30 March 2025",
+    "caption": "A damaged street in Gaza City's Rimal district with a broken power pole and shop signs, filed on Commons under Ooredoo Palestine, 30 March 2025. Photo: Hla.bashbash / Wikimedia Commons, CC BY 4.0.",
+    "kind": "subject"
+   }
+  },
+  {
+   "id": "al-jazeera-law-blocks-2026",
+   "desk": "platforms",
+   "status": "open",
+   "date": "2026-01-26",
+   "published": "2026-01-26",
+   "place": "Israel; Ramallah bureau",
+   "headline": "Israel's Al Jazeera law now reaches websites and YouTube, and runs until end of 2027",
+   "summary": "Israel extended the 2024 \"Al Jazeera law\" to the end of 2027 and dropped the need for a declared emergency or court approval. In January 2026 it used it to block Al Jazeera's and Al Mayadeen's websites and YouTube channels inside Israel; YouTube complied.",
+   "body": "The Knesset in December 2025 extended the 2024 law that lets the government shut foreign broadcasters deemed a security threat, as a temporary provision valid until 31 December 2027, and removed the requirement for a court to approve closures (Daily Sabah; The New Arab, Dec 2025).\n\nOn 26 January 2026 the cabinet approved 90-day orders, signed by Communications Minister Shlomo Karhi, blocking the websites and YouTube channels of Al Jazeera and Lebanon's Al Mayadeen in Israel, on top of the existing TV ban (Arab News, 26 Jan). Karhi said he would keep removing \"the enemies of Israel\". YouTube complied, which Al Jazeera called a breach of press freedom (Middle East Monitor, 30 Jan).\n\nCPJ urged Israel to lift all restrictions on foreign broadcasters (CPJ, Jan). In the West Bank, the army renewed the closure of Al Jazeera's Ramallah bureau on 12 May 2026, reported as the 13th extension since the September 2024 raid (Middle East Monitor; IMEMC, May).\n\nThe UN Special Rapporteur's October report says none of these measures meets international law's tests for restricting expression (A/81/249, paras 46–47).",
+   "people": [
+    "Shlomo Karhi"
+   ],
+   "source": "Israeli government; CPJ",
+   "via": "Arab News",
+   "url": "https://www.arabnews.com/node/2630696/media",
+   "more_urls": [
+    "https://cpj.org/2026/01/cpj-calls-on-israel-to-lift-ban-on-foreign-journalists-and-stop-targeting-broadcasters/",
+    "https://www.middleeastmonitor.com/20260130-youtubes-compliance-with-israel-ban-violates-press-freedoms-al-jazeera-says/",
+    "https://www.dailysabah.com/world/mid-east/israel-extends-media-law-that-banned-al-jazeera-by-2-more-years",
+    "https://www.middleeastmonitor.com/20260512-israeli-army-raids-west-banks-ramallah-renews-closure-of-al-jazeera-office/",
+    "https://imemc.org/article/israel-imposes-13th-extension-on-al-jazeera-office-closure/"
+   ],
+   "reading": "90",
+   "reading_unit": "days per blocking order",
+   "reading_note": "The cabinet approved 90-day orders on 26 Jan 2026 blocking Al Jazeera's and Al Mayadeen's websites and YouTube channels; the law itself now runs to 31 Dec 2027.",
+   "background": true,
+   "area": "israel",
+   "byline": "Israeli government; CPJ, via Arab News · 26 Jan 2026",
+   "outlet": "Arab News",
+   "photo": {
+    "slug": "al-jazeera-law-blocks-2026",
+    "alt": "Al Jazeera English's main studio at the network's Doha headquarters (November 2011)",
+    "caption": "Al Jazeera English's main studio at the network's Doha headquarters (November 2011). Photo: Wittylama / Wikimedia Commons, CC BY-SA 3.0.",
+    "kind": "subject"
+   }
+  }
+ ],
+ "counts": [
+  {
+   "num": "263",
+   "unit": "journalists killed in Gaza",
+   "ctx": "Journalists and media workers since October 2023; nine of them after the ceasefire of 10 October 2025.",
+   "src": "Gaza Government Media Office, via Anadolu",
+   "at": "7 Oct 2026"
+  },
+  {
+   "num": "247",
+   "unit": "journalists killed by Israel",
+   "ctx": "Since October 2023, 189 of them Palestinians in Gaza. CPJ counts only cases it has verified.",
+   "src": "Committee to Protect Journalists",
+   "at": "25 Sep 2026"
+  },
+  {
+   "num": "39",
+   "unit": "journalists in Israeli prisons",
+   "ctx": "21 held without charge in administrative detention; five are women.",
+   "src": "Palestinian Prisoners' Society",
+   "at": "17 Sep 2026"
+  },
+  {
+   "num": "50",
+   "unit": "violations against the press in September",
+   "ctx": "Down from 84 in August and 108 in July.",
+   "src": "PJS Freedoms Committee",
+   "at": "8 Oct 2026"
+  }
+ ],
+ "spark_from": "24 Sep",
+ "spark_to": "24 Oct",
+ "creators": [
+  {
+   "id": "bisan-owda-three-years-video",
+   "name": "Bisan Owda",
+   "line": "Three years of filming Gaza, months after a one-day TikTok ban."
+  },
+  {
+   "id": "saleh-al-jafarawi-one-year",
+   "name": "Saleh al-Jafarawi",
+   "line": "Killed a year ago in Gaza City. Still no answer."
+  },
+  {
+   "id": "anas-al-sharif-instagram-archive-shut",
+   "name": "Anas al-Sharif",
+   "line": "His archive of the war, shut on Instagram."
+  },
+  {
+   "id": "concrete-land-grierson-award-london",
+   "name": "Asmahan Bkerat",
+   "line": "Concrete Land, best documentary in London."
+  }
+ ],
+ "front": [
+  "heidi-levine-beaten-abu-falah",
+  "fpa-high-court-gaza-access",
+  "west-bank-4g-still-pending",
+  "hazem-nasser-released",
+  "tuqu-schools-flags-bethlehem-student-phone",
+  "anas-al-sharif-instagram-archive-shut",
+  "7amleh-q3-2026-308-violations",
+  "concrete-land-grierson-award-london"
+ ]
+}

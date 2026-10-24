@@ -1,0 +1,206 @@
+{
+  "source": "IODA (Internet Outage Detection and Analysis), Georgia Tech — https://ioda.inetintel.cc.gatech.edu",
+  "retrieved": "2026-10-24T09:49Z",
+  "endpoints": {
+    "entity_lookup": "GET https://api.ioda.inetintel.cc.gatech.edu/v2/entities/query?entityType=region&search=Gaza  (and search=West%20Bank) -> Gaza Strip = region 1226 (geo.netacuity.AS.PS.1226), West Bank = region 4581 (geo.netacuity.AS.PS.4581)",
+    "signals_2026": "GET https://api.ioda.inetintel.cc.gatech.edu/v2/signals/raw/region/{1226|4581}?from=1790208000&until=1792843200  (2026-09-24T00:00Z to 2026-10-24T12:00Z; no datasource or maxPoints parameter, so native steps: bgp 300 s, ping-slash24 600 s)",
+    "signals_2023_baseline": "GET https://api.ioda.inetintel.cc.gatech.edu/v2/signals/raw/region/{1226|4581}?from=1696118400&until=1696636800  (2023-10-01T00:00Z to 2023-10-07T00:00Z, i.e. 1-6 Oct 2023 inclusive)",
+    "alerts": "GET https://api.ioda.inetintel.cc.gatech.edu/v2/outages/alerts?entityType=region&entityCode={1226|4581}&from=1785542400&until=1792843200&limit=500  (2026-08-01 to 2026-10-24)",
+    "events": "GET https://api.ioda.inetintel.cc.gatech.edu/v2/outages/events?entityType=region&entityCode={1226|4581}&from=1785542400&until=1792843200&limit=500&format=ioda",
+    "crosscheck": "GET https://api.ioda.inetintel.cc.gatech.edu/v2/signals/raw/country/{IL|JO|EG|LB|PS}?from=...&until=...&datasource=ping-slash24|bgp  around 13, 15 and 17-18 Oct 2026",
+    "tls_note": "From this Windows machine curl needed --ssl-no-revoke (the certificate revocation server was unreachable); the certificate itself validated. WebFetch rejected the certificate."
+  },
+  "how_daily_values_were_made": "Each day (UTC) = all native samples that day. 'median' is the value to show; mean/min/max are given so dips inside a day stay visible. 24 Oct is a partial day (data to about 09:30Z).",
+  "signals": {
+    "bgp": "Number of /24 address blocks in the region that are visible in global BGP routing (routed /24 blocks).",
+    "ping-slash24": "Number of /24 blocks in the region where at least one address answered IODA's active probes (answering blocks)."
+  },
+  "regions": {
+    "Gaza Strip": {
+      "ioda_region_code": "1226",
+      "baseline_1_6_oct_2023": {
+        "bgp": {"mean": 704.0, "median": 704.0, "min": 703, "max": 704, "samples": 1728},
+        "ping-slash24": {"mean": 196.1, "median": 196.0, "min": 162, "max": 221, "samples": 864}
+      },
+      "daily_24_sep_to_24_oct_2026": {
+        "bgp": [
+          {"date": "2026-09-24", "median": 147, "mean": 147, "min": 147, "max": 147, "samples": 288, "slots": 288},
+          {"date": "2026-09-25", "median": 147, "mean": 147.0, "min": 146, "max": 147, "samples": 288, "slots": 288},
+          {"date": "2026-09-26", "median": 147, "mean": 147.0, "min": 145, "max": 147, "samples": 288, "slots": 288},
+          {"date": "2026-09-27", "median": 147, "mean": 147, "min": 147, "max": 147, "samples": 288, "slots": 288},
+          {"date": "2026-09-28", "median": 147, "mean": 146.9, "min": 145, "max": 147, "samples": 288, "slots": 288},
+          {"date": "2026-09-29", "median": 147, "mean": 147, "min": 147, "max": 147, "samples": 288, "slots": 288},
+          {"date": "2026-09-30", "median": 147, "mean": 147, "min": 147, "max": 147, "samples": 288, "slots": 288},
+          {"date": "2026-10-01", "median": 144, "mean": 145.1, "min": 142, "max": 147, "samples": 288, "slots": 288},
+          {"date": "2026-10-02", "median": 147, "mean": 145.9, "min": 144, "max": 147, "samples": 288, "slots": 288},
+          {"date": "2026-10-03", "median": 147, "mean": 147, "min": 147, "max": 147, "samples": 288, "slots": 288},
+          {"date": "2026-10-04", "median": 151, "mean": 149.2, "min": 145, "max": 151, "samples": 288, "slots": 288},
+          {"date": "2026-10-05", "median": 151, "mean": 151, "min": 151, "max": 151, "samples": 288, "slots": 288},
+          {"date": "2026-10-06", "median": 151, "mean": 151, "min": 151, "max": 151, "samples": 288, "slots": 288},
+          {"date": "2026-10-07", "median": 151, "mean": 151.0, "min": 147, "max": 151, "samples": 288, "slots": 288},
+          {"date": "2026-10-08", "median": 151, "mean": 152.2, "min": 145, "max": 155, "samples": 288, "slots": 288},
+          {"date": "2026-10-09", "median": 155, "mean": 155, "min": 155, "max": 155, "samples": 288, "slots": 288},
+          {"date": "2026-10-10", "median": 155, "mean": 154.8, "min": 145, "max": 155, "samples": 288, "slots": 288},
+          {"date": "2026-10-11", "median": 155, "mean": 155, "min": 155, "max": 155, "samples": 288, "slots": 288},
+          {"date": "2026-10-12", "median": 155, "mean": 154.7, "min": 145, "max": 155, "samples": 288, "slots": 288},
+          {"date": "2026-10-13", "median": 155, "mean": 154.9, "min": 153, "max": 155, "samples": 288, "slots": 288},
+          {"date": "2026-10-14", "median": 155, "mean": 155.0, "min": 153, "max": 155, "samples": 288, "slots": 288},
+          {"date": "2026-10-15", "median": 155, "mean": 155, "min": 155, "max": 155, "samples": 288, "slots": 288},
+          {"date": "2026-10-16", "median": 155, "mean": 155.0, "min": 154, "max": 155, "samples": 288, "slots": 288},
+          {"date": "2026-10-17", "median": 155, "mean": 154.9, "min": 153, "max": 155, "samples": 288, "slots": 288},
+          {"date": "2026-10-18", "median": 155, "mean": 154.8, "min": 152, "max": 155, "samples": 288, "slots": 288},
+          {"date": "2026-10-19", "median": 155, "mean": 154.5, "min": 153, "max": 155, "samples": 288, "slots": 288},
+          {"date": "2026-10-20", "median": 155, "mean": 155, "min": 155, "max": 155, "samples": 288, "slots": 288},
+          {"date": "2026-10-21", "median": 155, "mean": 155, "min": 155, "max": 155, "samples": 288, "slots": 288},
+          {"date": "2026-10-22", "median": 155, "mean": 155.0, "min": 153, "max": 155, "samples": 288, "slots": 288},
+          {"date": "2026-10-23", "median": 155, "mean": 155, "min": 155, "max": 155, "samples": 288, "slots": 288},
+          {"date": "2026-10-24", "median": 155, "mean": 155.0, "min": 153, "max": 155, "samples": 115, "slots": 144}
+        ],
+        "ping-slash24": [
+          {"date": "2026-09-24", "median": 8, "mean": 8.5, "min": 7, "max": 10, "samples": 144, "slots": 144},
+          {"date": "2026-09-25", "median": 9, "mean": 8.8, "min": 7, "max": 10, "samples": 144, "slots": 144},
+          {"date": "2026-09-26", "median": 9, "mean": 8.8, "min": 7, "max": 10, "samples": 144, "slots": 144},
+          {"date": "2026-09-27", "median": 9, "mean": 8.9, "min": 7, "max": 10, "samples": 144, "slots": 144},
+          {"date": "2026-09-28", "median": 9, "mean": 8.8, "min": 6, "max": 10, "samples": 144, "slots": 144},
+          {"date": "2026-09-29", "median": 9, "mean": 8.7, "min": 7, "max": 10, "samples": 144, "slots": 144},
+          {"date": "2026-09-30", "median": 9, "mean": 8.7, "min": 7, "max": 10, "samples": 144, "slots": 144},
+          {"date": "2026-10-01", "median": 7, "mean": 7.6, "min": 5, "max": 10, "samples": 144, "slots": 144},
+          {"date": "2026-10-02", "median": 8, "mean": 7.9, "min": 5, "max": 10, "samples": 144, "slots": 144},
+          {"date": "2026-10-03", "median": 8, "mean": 8.3, "min": 6, "max": 10, "samples": 144, "slots": 144},
+          {"date": "2026-10-04", "median": 8, "mean": 8.3, "min": 4, "max": 9, "samples": 144, "slots": 144},
+          {"date": "2026-10-05", "median": 8, "mean": 8.1, "min": 6, "max": 9, "samples": 144, "slots": 144},
+          {"date": "2026-10-06", "median": 8, "mean": 8.4, "min": 5, "max": 9, "samples": 144, "slots": 144},
+          {"date": "2026-10-07", "median": 8, "mean": 8.4, "min": 7, "max": 9, "samples": 144, "slots": 144},
+          {"date": "2026-10-08", "median": 8, "mean": 8.3, "min": 7, "max": 9, "samples": 144, "slots": 144},
+          {"date": "2026-10-09", "median": 8, "mean": 8.3, "min": 7, "max": 9, "samples": 144, "slots": 144},
+          {"date": "2026-10-10", "median": 8, "mean": 8.2, "min": 6, "max": 9, "samples": 144, "slots": 144},
+          {"date": "2026-10-11", "median": 8, "mean": 8, "min": 6, "max": 9, "samples": 144, "slots": 144},
+          {"date": "2026-10-12", "median": 8, "mean": 8.0, "min": 5, "max": 10, "samples": 144, "slots": 144},
+          {"date": "2026-10-13", "median": 8, "mean": 8.2, "min": 5, "max": 10, "samples": 144, "slots": 144},
+          {"date": "2026-10-14", "median": 8, "mean": 8.3, "min": 6, "max": 9, "samples": 144, "slots": 144},
+          {"date": "2026-10-15", "median": 8, "mean": 8.2, "min": 2, "max": 9, "samples": 137, "slots": 144},
+          {"date": "2026-10-16", "median": 8, "mean": 8.2, "min": 7, "max": 9, "samples": 144, "slots": 144},
+          {"date": "2026-10-17", "median": 8, "mean": 7.9, "min": 5, "max": 9, "samples": 143, "slots": 144},
+          {"date": "2026-10-18", "median": 7, "mean": 7.3, "min": 5, "max": 9, "samples": 143, "slots": 144},
+          {"date": "2026-10-19", "median": 8, "mean": 7.5, "min": 6, "max": 9, "samples": 144, "slots": 144},
+          {"date": "2026-10-20", "median": 8, "mean": 8.2, "min": 6, "max": 9, "samples": 144, "slots": 144},
+          {"date": "2026-10-21", "median": 8, "mean": 8.2, "min": 7, "max": 9, "samples": 144, "slots": 144},
+          {"date": "2026-10-22", "median": 8, "mean": 8.3, "min": 6, "max": 10, "samples": 144, "slots": 144},
+          {"date": "2026-10-23", "median": 8, "mean": 8.2, "min": 6, "max": 9, "samples": 144, "slots": 144},
+          {"date": "2026-10-24", "median": 8, "mean": 8.3, "min": 7, "max": 9, "samples": 58, "slots": 72}
+        ]
+      },
+      "alerts_since_1_aug_2026": [
+        {"time": "2026-08-14T15:05:00Z", "datasource": "bgp", "level": "critical", "value": 142, "history_value": 144},
+        {"time": "2026-08-14T16:15:00Z", "datasource": "bgp", "level": "normal", "value": 144, "history_value": 144},
+        {"time": "2026-09-16T04:10:00Z", "datasource": "bgp", "level": "critical", "value": 142, "history_value": 145},
+        {"time": "2026-09-16T04:45:00Z", "datasource": "bgp", "level": "normal", "value": 145, "history_value": 145}
+      ],
+      "outage_events_since_1_aug_2026": [
+        {"from": "2026-08-14T15:05:00Z", "until": "2026-08-14T16:15:00Z", "minutes": 70, "datasource": "bgp", "score": 97.2},
+        {"from": "2026-09-16T04:10:00Z", "until": "2026-09-16T04:45:00Z", "minutes": 35, "datasource": "bgp", "score": 72.4}
+      ]
+    },
+    "West Bank": {
+      "ioda_region_code": "4581",
+      "baseline_1_6_oct_2023": {
+        "bgp": {"mean": 2339.0, "median": 2337.0, "min": 2297, "max": 2349, "samples": 1728},
+        "ping-slash24": {"mean": 337.2, "median": 337.0, "min": 302, "max": 375, "samples": 864}
+      },
+      "daily_24_sep_to_24_oct_2026": {
+        "bgp": [
+          {"date": "2026-09-24", "median": 3014, "mean": 3014, "min": 3014, "max": 3014, "samples": 288, "slots": 288},
+          {"date": "2026-09-25", "median": 3014, "mean": 3014, "min": 3014, "max": 3014, "samples": 288, "slots": 288},
+          {"date": "2026-09-26", "median": 3014, "mean": 3014, "min": 3014, "max": 3014, "samples": 288, "slots": 288},
+          {"date": "2026-09-27", "median": 3014, "mean": 3014, "min": 3014, "max": 3014, "samples": 288, "slots": 288},
+          {"date": "2026-09-28", "median": 3014, "mean": 3014.0, "min": 3010, "max": 3014, "samples": 288, "slots": 288},
+          {"date": "2026-09-29", "median": 3014, "mean": 3013.7, "min": 3010, "max": 3015, "samples": 288, "slots": 288},
+          {"date": "2026-09-30", "median": 3015, "mean": 3014.8, "min": 3013, "max": 3015, "samples": 288, "slots": 288},
+          {"date": "2026-10-01", "median": 3015, "mean": 3015, "min": 3015, "max": 3015, "samples": 288, "slots": 288},
+          {"date": "2026-10-02", "median": 3015, "mean": 3014.9, "min": 3011, "max": 3015, "samples": 288, "slots": 288},
+          {"date": "2026-10-03", "median": 3015, "mean": 3015, "min": 3015, "max": 3015, "samples": 288, "slots": 288},
+          {"date": "2026-10-04", "median": 3015, "mean": 3015, "min": 3015, "max": 3015, "samples": 288, "slots": 288},
+          {"date": "2026-10-05", "median": 3015, "mean": 3015.0, "min": 3011, "max": 3015, "samples": 288, "slots": 288},
+          {"date": "2026-10-06", "median": 3015, "mean": 3015.0, "min": 3014, "max": 3015, "samples": 288, "slots": 288},
+          {"date": "2026-10-07", "median": 3015, "mean": 3015.0, "min": 3007, "max": 3015, "samples": 288, "slots": 288},
+          {"date": "2026-10-08", "median": 3015, "mean": 3014.9, "min": 3007, "max": 3015, "samples": 288, "slots": 288},
+          {"date": "2026-10-09", "median": 3015, "mean": 3015, "min": 3015, "max": 3015, "samples": 288, "slots": 288},
+          {"date": "2026-10-10", "median": 3016, "mean": 3015.9, "min": 3015, "max": 3016, "samples": 288, "slots": 288},
+          {"date": "2026-10-11", "median": 3016, "mean": 3016.0, "min": 3015, "max": 3016, "samples": 288, "slots": 288},
+          {"date": "2026-10-12", "median": 3016, "mean": 3016.0, "min": 3015, "max": 3016, "samples": 288, "slots": 288},
+          {"date": "2026-10-13", "median": 3016, "mean": 3014.6, "min": 2956, "max": 3016, "samples": 288, "slots": 288},
+          {"date": "2026-10-14", "median": 3016, "mean": 3015.9, "min": 3013, "max": 3016, "samples": 288, "slots": 288},
+          {"date": "2026-10-15", "median": 3016, "mean": 3016.5, "min": 3016, "max": 3018, "samples": 288, "slots": 288},
+          {"date": "2026-10-16", "median": 3017, "mean": 3017.4, "min": 3017, "max": 3018, "samples": 288, "slots": 288},
+          {"date": "2026-10-17", "median": 3018, "mean": 3017.6, "min": 3017, "max": 3018, "samples": 288, "slots": 288},
+          {"date": "2026-10-18", "median": 3018, "mean": 3017.5, "min": 3016, "max": 3018, "samples": 288, "slots": 288},
+          {"date": "2026-10-19", "median": 3017, "mean": 3016.8, "min": 3016, "max": 3017, "samples": 288, "slots": 288},
+          {"date": "2026-10-20", "median": 3017, "mean": 3017.2, "min": 3015, "max": 3020, "samples": 288, "slots": 288},
+          {"date": "2026-10-21", "median": 3017, "mean": 3016.2, "min": 2993, "max": 3017, "samples": 288, "slots": 288},
+          {"date": "2026-10-22", "median": 3015, "mean": 3015.0, "min": 3015, "max": 3017, "samples": 288, "slots": 288},
+          {"date": "2026-10-23", "median": 3015, "mean": 3014.8, "min": 3014, "max": 3015, "samples": 288, "slots": 288},
+          {"date": "2026-10-24", "median": 3015, "mean": 3015, "min": 3015, "max": 3015, "samples": 115, "slots": 144}
+        ],
+        "ping-slash24": [
+          {"date": "2026-09-24", "median": 1368, "mean": 1369.0, "min": 1345, "max": 1395, "samples": 144, "slots": 144},
+          {"date": "2026-09-25", "median": 1372, "mean": 1371.5, "min": 1343, "max": 1397, "samples": 144, "slots": 144},
+          {"date": "2026-09-26", "median": 1375, "mean": 1374.9, "min": 1345, "max": 1415, "samples": 144, "slots": 144},
+          {"date": "2026-09-27", "median": 1370, "mean": 1370.7, "min": 1341, "max": 1391, "samples": 144, "slots": 144},
+          {"date": "2026-09-28", "median": 1372.5, "mean": 1372.7, "min": 1349, "max": 1397, "samples": 144, "slots": 144},
+          {"date": "2026-09-29", "median": 1379, "mean": 1378.2, "min": 1347, "max": 1403, "samples": 144, "slots": 144},
+          {"date": "2026-09-30", "median": 1382, "mean": 1380.7, "min": 1355, "max": 1403, "samples": 144, "slots": 144},
+          {"date": "2026-10-01", "median": 1381, "mean": 1380.7, "min": 1349, "max": 1404, "samples": 144, "slots": 144},
+          {"date": "2026-10-02", "median": 1386, "mean": 1387.0, "min": 1354, "max": 1412, "samples": 144, "slots": 144},
+          {"date": "2026-10-03", "median": 1389, "mean": 1389.4, "min": 1366, "max": 1420, "samples": 144, "slots": 144},
+          {"date": "2026-10-04", "median": 1395, "mean": 1394.7, "min": 1366, "max": 1425, "samples": 144, "slots": 144},
+          {"date": "2026-10-05", "median": 1383, "mean": 1382.9, "min": 1351, "max": 1406, "samples": 144, "slots": 144},
+          {"date": "2026-10-06", "median": 1379.5, "mean": 1380.0, "min": 1360, "max": 1404, "samples": 144, "slots": 144},
+          {"date": "2026-10-07", "median": 1384, "mean": 1382.9, "min": 1349, "max": 1406, "samples": 144, "slots": 144},
+          {"date": "2026-10-08", "median": 1379, "mean": 1378.5, "min": 1356, "max": 1403, "samples": 144, "slots": 144},
+          {"date": "2026-10-09", "median": 1375.5, "mean": 1375.3, "min": 1346, "max": 1402, "samples": 144, "slots": 144},
+          {"date": "2026-10-10", "median": 1388, "mean": 1388.2, "min": 1359, "max": 1418, "samples": 144, "slots": 144},
+          {"date": "2026-10-11", "median": 1383, "mean": 1382.5, "min": 1356, "max": 1409, "samples": 144, "slots": 144},
+          {"date": "2026-10-12", "median": 1385, "mean": 1386.0, "min": 1350, "max": 1417, "samples": 144, "slots": 144},
+          {"date": "2026-10-13", "median": 1382, "mean": 1379.0, "min": 1333, "max": 1408, "samples": 144, "slots": 144},
+          {"date": "2026-10-14", "median": 1380, "mean": 1380.8, "min": 1352, "max": 1411, "samples": 144, "slots": 144},
+          {"date": "2026-10-15", "median": 1391, "mean": 1362.1, "min": 55, "max": 1422, "samples": 137, "slots": 144},
+          {"date": "2026-10-16", "median": 1401, "mean": 1399, "min": 1337, "max": 1426, "samples": 144, "slots": 144},
+          {"date": "2026-10-17", "median": 1408, "mean": 1409.0, "min": 1383, "max": 1441, "samples": 143, "slots": 144},
+          {"date": "2026-10-18", "median": 1410, "mean": 1401.3, "min": 694, "max": 1441, "samples": 143, "slots": 144},
+          {"date": "2026-10-19", "median": 1414, "mean": 1414.2, "min": 1377, "max": 1445, "samples": 144, "slots": 144},
+          {"date": "2026-10-20", "median": 1416, "mean": 1415.2, "min": 1389, "max": 1439, "samples": 144, "slots": 144},
+          {"date": "2026-10-21", "median": 1411, "mean": 1411, "min": 1382, "max": 1437, "samples": 144, "slots": 144},
+          {"date": "2026-10-22", "median": 1407, "mean": 1406.6, "min": 1372, "max": 1434, "samples": 144, "slots": 144},
+          {"date": "2026-10-23", "median": 1403.5, "mean": 1403.7, "min": 1372, "max": 1438, "samples": 144, "slots": 144},
+          {"date": "2026-10-24", "median": 1407, "mean": 1408.6, "min": 1387, "max": 1431, "samples": 58, "slots": 72}
+        ]
+      },
+      "alerts_since_1_aug_2026": [
+        {"time": "2026-10-13T02:25:00Z", "datasource": "bgp", "level": "critical", "value": 2956, "history_value": 3016},
+        {"time": "2026-10-13T02:55:00Z", "datasource": "bgp", "level": "normal", "value": 3016, "history_value": 3016},
+        {"time": "2026-10-15T22:20:00Z", "datasource": "ping-slash24", "level": "critical", "value": 55, "history_value": 1383},
+        {"time": "2026-10-15T22:50:00Z", "datasource": "ping-slash24", "level": "normal", "value": 1107, "history_value": 1383},
+        {"time": "2026-10-18T00:00:00Z", "datasource": "ping-slash24", "level": "critical", "value": 219, "history_value": 1389},
+        {"time": "2026-10-18T01:00:00Z", "datasource": "ping-slash24", "level": "normal", "value": 1369, "history_value": 1389}
+      ],
+      "outage_events_since_1_aug_2026": [
+        {"from": "2026-10-13T02:25:00Z", "until": "2026-10-13T02:55:00Z", "minutes": 30, "datasource": "bgp", "score": 59.7},
+        {"from": "2026-10-15T22:20:00Z", "until": "2026-10-15T22:50:00Z", "minutes": 30, "datasource": "ping-slash24", "score": 2880.7},
+        {"from": "2026-10-18T00:00:00Z", "until": "2026-10-18T01:00:00Z", "minutes": 60, "datasource": "ping-slash24", "score": 5054.0}
+      ]
+    }
+  },
+  "readings": {
+    "gaza_2026-10-07": "BGP median 151 routed /24 blocks (of 704 on 1-6 Oct 2023); ping-slash24 median 8 answering blocks (pre-war mean 196.1). Confirms the earlier sample reading '151 of 704, 8 answering'.",
+    "gaza_2026-10-24": "BGP 155 of 704 (22%); ping-slash24 median 8 (about 4% of the pre-war 196). Routed blocks rose from 147 (24-30 Sep) to 151 (from 4 Oct) and 155 (from 9 Oct).",
+    "gaza_last_alert": "Last IODA outage event for the Gaza Strip: 2026-09-16 04:10-04:45Z (35 minutes, BGP, value 142 vs history 145). No alert or event between then and 24 Oct 2026 about 09:30Z.",
+    "west_bank_2026-10-24": "BGP 3,015 routed /24 blocks (1-6 Oct 2023 mean 2,339); ping-slash24 median about 1,407 (1-6 Oct 2023 mean about 337)."
+  },
+  "notes": [
+    "15 Oct 2026 22:20-22:50Z and 18 Oct 2026 00:00-01:00Z West Bank ping-slash24 alerts are NOT local outages: the same data gap and drop appear at the same minutes in Israel, Jordan, Egypt, Lebanon and Gaza, i.e. an IODA probing gap. Do not report them as outages. (The alert 'value' 219 on 18 Oct differs from the raw 10-minute value 694 at 00:00Z; the alert engine aggregates differently.)",
+    "13 Oct 2026 02:25-02:55Z (05:25-05:55 local time): West Bank routed /24 blocks fell from 3,016 to 2,956 (60 blocks, 2%) for 30 minutes; Israel and Jordan unchanged; West Bank active probing did not drop. A brief routing blip, not a felt outage.",
+    "Cross-year caution: West Bank answering blocks are now about 4x the 2023 level, which points to a change in IODA's probing set or method since 2023, not a fourfold growth in West Bank internet use. Compare ping-slash24 across 2023 and 2026 with care. The Gaza collapse (196 -> 8) is far larger than any such effect, and the BGP signal (704 -> 155) does not have this problem.",
+    "IODA geolocates address blocks with NetAcuity; blocks registered to Gaza operators but announced from elsewhere may be counted differently. IODA readings describe address space, not people online.",
+    "Copyright: IODA data (c) Georgia Tech Research Corporation; credit IODA when publishing."
+  ]
+}
